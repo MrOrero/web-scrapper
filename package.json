@@ -6,7 +6,8 @@
   "scripts": {
     "scrape": "node src/cli.js",
     "open-uk:collect:browser": "node src/open-uk/collect_browser.js --output open_uk_filtered_browser.json",
-    "test": "node --test"
+    "test": "node --test",
+    "public-scotland:categories": "node src/public-scotland/cli_scotland.js"
   },
   "keywords": [],
   "author": "",
