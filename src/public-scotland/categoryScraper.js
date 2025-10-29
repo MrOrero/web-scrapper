@@ -557,3 +557,73 @@ fetchDetailData = async function(page, detailUrl, { timeoutMs }) {
   }
   return primary;
 };
+
+// --- Full Notice Text Tab Extraction Extension ---
+// Re-wrap again to add tab click & deep content parsing without losing fallback behavior.
+const _wrappedFetchDetailData = fetchDetailData;
+fetchDetailData = async function(page, detailUrl, { timeoutMs }) {
+  const data = await _wrappedFetchDetailData(page, detailUrl, { timeoutMs });
+  try {
+    // Attempt to locate a tab with text 'Full Notice Text'
+    const tabClicked = await page.evaluate(() => {
+      const candidates = Array.from(document.querySelectorAll('li.rtsLI a.rtsLink, a#Tab2, li.rtsLI span.rtsTxt'));
+      for (const c of candidates) {
+        const txt = (c.innerText || '').trim();
+        if (/^Full Notice Text$/i.test(txt)) {
+          const link = c.closest('a.rtsLink') || c;
+          link.click();
+          return true;
+        }
+      }
+      return false;
+    });
+    if (tabClicked) {
+      // Wait briefly for content panel to appear
+      await sleep(600);
+      // Capture panel text if available
+      const fullNotice = await page.evaluate(() => {
+        const panel = document.querySelector('#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_Page2');
+        if (!panel) return null;
+        const raw = panel.innerText.trim();
+        // Extract lots using heuristic regex
+        const lotRegex = /Lot No:\s*(\d+)([\s\S]*?)(?=Lot No:|Section VI:|$)/g;
+        const lots = [];
+        let m;
+        while ((m = lotRegex.exec(raw))) {
+          const lotNumber = m[1];
+          const block = m[2];
+          const titleMatch = block.match(/II\.2\.1\) Title[\s\S]*?(?:\n)(.+)/);
+          const title = titleMatch ? titleMatch[1].trim() : null;
+          const cpvMatches = Array.from(block.matchAll(/\b(\d{8})\b/g)).map(x => x[1]);
+          const startMatch = block.match(/Start:\s*(\d{2}\/\d{2}\/\d{4})/);
+          const endMatch = block.match(/End:\s*(\d{2}\/\d{2}\/\d{4})/);
+          const renewal = /subject to renewal:\s*Yes/i.test(block);
+          const renewalDescMatch = block.match(/Description of renewals:\s*(.+)/);
+          lots.push({
+            lotNumber,
+            title,
+            cpvCodes: Array.from(new Set(cpvMatches)),
+            startDate: startMatch ? startMatch[1] : null,
+            endDate: endMatch ? endMatch[1] : null,
+            renewal,
+            renewalDescription: renewalDescMatch ? renewalDescMatch[1].trim() : null
+          });
+        }
+        // Sections headings extraction
+        const sectionRegex = /Section\s+([IVX]+):\s*([^\n]+)/g;
+        const sections = [];
+        let s;
+        while ((s = sectionRegex.exec(raw))) {
+          sections.push({ roman: s[1], heading: s[2].trim() });
+        }
+        return { raw, lots, sections };
+      });
+      if (fullNotice) {
+        data.fullNotice = fullNotice;
+      }
+    }
+  } catch (e) {
+    logWarn('Full Notice Text extraction failed', { error: e.message });
+  }
+  return data;
+};
