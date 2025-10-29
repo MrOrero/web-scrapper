@@ -427,63 +427,133 @@ function extractNoticeId(detailUrl) {
 async function fetchDetailData(page, detailUrl, { timeoutMs }) {
   logInfo('Fetching detail page', { detailUrl });
   await page.goto(detailUrl, { waitUntil: 'domcontentloaded', timeout: timeoutMs });
-
-  async function getFirstText(selectors) {
-    for (const sel of selectors) {
-      try {
-        const handle = await page.$(sel);
-        if (handle) {
-          const txt = (await page.evaluate(el => el.innerText.trim(), handle)) || '';
-          if (txt) return txt;
-        }
-      } catch (_) { /* ignore */ }
-    }
-    return null;
+  // Helper to safely get trimmed innerText by exact ID
+  async function getById(id) {
+    try {
+      return await page.$eval(`#${id}`, el => (el.innerText || '').trim());
+    } catch (_) { return null; }
   }
 
-  const title = await getFirstText([
-    '#ctl00_maincontent_lblNoticeTitle',
-    '.notice-title',
-    'h1'
-  ]);
-  const buyer = await getFirstText([
-    '#ctl00_maincontent_lblBuyer',
-    '.buyer',
-    '.org-name'
-  ]);
-  const description = await getFirstText([
-    '#ctl00_maincontent_lblShortDescription',
-    '#ctl00_maincontent_lblDescription',
-    '.description'
-  ]);
-  const closingDate = await getFirstText([
-    '#ctl00_maincontent_lblDeadlineDate',
-    '.closing-date',
-    '.deadline'
-  ]);
-  const publishedDate = await getFirstText([
-    '#ctl00_maincontent_lblPublicationDate',
-    '.published-date'
-  ]);
+  // IDs observed in provided HTML snippet
+  const ids = {
+    title: 'ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblTitle',
+    referenceNo: 'ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblTenderID',
+    ocid: 'ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblOCID',
+    publishedBy: 'ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblAuth',
+    publicationDate: 'ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblPubDate',
+    deadlineDate: 'ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblDeadlineDate',
+    deadlineTime: 'ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblDeadlineTime',
+    noticeType: 'ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblDocType',
+    hasDocuments: 'ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblHasDocs',
+    hasSpd: 'ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblHasESPD',
+    abstract: 'ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblAbstract'
+  };
 
-  // Raw main content fallback
+  const title = await getById(ids.title);
+  const referenceNo = await getById(ids.referenceNo);
+  const ocid = await getById(ids.ocid);
+  // publishedBy may contain an anchor
+  let publishedBy = await getById(ids.publishedBy);
+  // Strip potential nested anchor markup remnants
+  if (publishedBy) publishedBy = publishedBy.replace(/\s+/g, ' ').trim();
+  const publicationDate = await getById(ids.publicationDate);
+  const deadlineDate = await getById(ids.deadlineDate);
+  const deadlineTime = await getById(ids.deadlineTime);
+  const noticeType = await getById(ids.noticeType);
+  const hasDocumentsRaw = await getById(ids.hasDocuments);
+  const hasSpdRaw = await getById(ids.hasSpd);
+  const abstract = await getById(ids.abstract);
+
+  // Derive booleans
+  const hasDocuments = /yes/i.test(hasDocumentsRaw || '');
+  const hasSpd = /yes/i.test(hasSpdRaw || '');
+
+  // Extract CPV codes from abstract text (e.g., 'CPV: 66510000, 66515200')
+  let cpvCodes = [];
+  if (abstract) {
+    const match = abstract.match(/CPV:\s*([0-9,\s]+)/i);
+    if (match) {
+      cpvCodes = match[1]
+        .split(/[,\s]+/)
+        .filter(c => /\d{5,}/.test(c));
+    }
+  }
+
+  // Raw main content fallback (in case we need broader context later)
   let rawText = null;
   try {
-    rawText = await page.$eval('#maincontent', el => el.innerText.trim());
-  } catch (_) {
-    try {
-      rawText = await page.$eval('body', el => el.innerText.trim());
-    } catch (_) { rawText = null; }
-  }
+    rawText = await page.$eval('body', el => el.innerText.trim());
+  } catch (_) { rawText = null; }
 
   return {
     noticeId: extractNoticeId(detailUrl),
     detailUrl,
     title,
-    buyer,
-    description,
-    closingDate,
-    publishedDate,
+    referenceNo,
+    ocid,
+    publishedBy,
+    publicationDate,
+    deadlineDate,
+    deadlineTime,
+    noticeType,
+    hasDocuments,
+    hasSpd,
+    abstract,
+    cpvCodes,
     rawText
   };
 }
+
+/**
+ * Fallback generic table parsing if specific IDs are missing.
+ * Attempts to build a key/value map by scanning table rows with <strong> labels.
+ * @param {puppeteer.Page} page
+ * @returns {Promise<Object>} key/value pairs
+ */
+async function parseDetailTableFallback(page) {
+  try {
+    return await page.evaluate(() => {
+      const data = {};
+      const rows = Array.from(document.querySelectorAll('tbody tr'));
+      rows.forEach(r => {
+        const strong = r.querySelector('td strong');
+        const valueCell = r.querySelector('td:nth-child(2)');
+        if (!strong || !valueCell) return;
+        const keyRaw = strong.innerText.replace(/:\s*$/, '').trim();
+        let val = valueCell.innerText.trim();
+        // Remove excessive whitespace
+        val = val.replace(/\s+/g, ' ').trim();
+        if (keyRaw) data[keyRaw.toLowerCase()] = val;
+      });
+      return data;
+    });
+  } catch (e) {
+    logWarn('Fallback table parse failed', { error: e.message });
+    return {};
+  }
+}
+
+// Wrap original fetchDetailData to inject fallback merging
+const _origFetchDetailData = fetchDetailData;
+fetchDetailData = async function(page, detailUrl, { timeoutMs }) {
+  const primary = await _origFetchDetailData(page, detailUrl, { timeoutMs });
+  // If critical fields missing, attempt fallback
+  if (!primary.title || !primary.referenceNo || !primary.ocid) {
+    logWarn('Primary detail extraction incomplete; invoking fallback');
+    const fallbackMap = await parseDetailTableFallback(page);
+    // Normalize keys to expected property names if present
+    const mapped = {
+      title: primary.title || fallbackMap['title'],
+      referenceNo: primary.referenceNo || fallbackMap['reference no'],
+      ocid: primary.ocid || fallbackMap['ocid'],
+      publishedBy: primary.publishedBy || fallbackMap['published by'],
+      publicationDate: primary.publicationDate || fallbackMap['publication date'],
+      deadlineDate: primary.deadlineDate || fallbackMap['deadline date'],
+      deadlineTime: primary.deadlineTime || fallbackMap['deadline time'],
+      noticeType: primary.noticeType || fallbackMap['notice type'],
+      abstract: primary.abstract || fallbackMap['abstract']
+    };
+    return { ...primary, ...mapped, fallbackApplied: true };
+  }
+  return primary;
+};
