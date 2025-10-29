@@ -19,6 +19,8 @@ async function main() {
   let detailPages = true;
   let abortOnFailure = true;
   let detailDelayMs = 600;
+  let detailRetries = 3;
+  let detailRetryBackoffMs = 700;
 
   for (let i = 0; i < args.length; i++) {
     const a = args[i];
@@ -43,15 +45,21 @@ async function main() {
     } else if (a === '--detail-delay') {
       detailDelayMs = parseInt(args[i + 1], 10) || detailDelayMs;
       i++;
+    } else if (a === '--detail-retries') {
+      detailRetries = parseInt(args[i + 1], 10) || detailRetries;
+      i++;
+    } else if (a === '--detail-retry-backoff') {
+      detailRetryBackoffMs = parseInt(args[i + 1], 10) || detailRetryBackoffMs;
+      i++;
     } else if (a === '--no-abort') {
       abortOnFailure = false;
     }
   }
 
   try {
-  const data = await runScotlandCategoryScrape({ keywords, headless, delayMs, maxPages, detailPages, detailDelayMs, abortOnFailure });
+  const data = await runScotlandCategoryScrape({ keywords, headless, delayMs, maxPages, detailPages, detailDelayMs, abortOnFailure, detailRetries, detailRetryBackoffMs });
     fs.writeFileSync(path.resolve(output), JSON.stringify(data, null, 2));
-    logInfo('Scrape complete', { output, categories: data.__meta.totalCategories, totalItems: data.__meta.totalItems });
+    logInfo('Scrape complete', { output, selectedCategories: data.__meta.totalSelected, totalItems: data.__meta.totalItems });
     console.log(`Saved to ${output}`);
   } catch (err) {
     logError('Failed Scotland category scrape', { error: err.message });

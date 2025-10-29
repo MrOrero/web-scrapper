@@ -1,6 +1,6 @@
 {
   "__meta": {
-    "fetchedAt": "2025-10-26T11:58:00.656Z",
+    "fetchedAt": "2025-10-29T22:39:04.683Z",
     "baseUrl": "https://www.publiccontractsscotland.gov.uk/search/search_mainpage.aspx",
     "selectedCategories": [
       "520: Ayrshire Central Hospital - Mental Health and Community Hospital",
@@ -128,223 +128,988 @@
   },
   "items": [
     {
-      "date": "24/10/2025",
-      "title": "View Notice",
-      "detailUrl": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=OCT542085",
-      "referenceNo": "OCT542085",
-      "ocid": "ocds-r6ebe6-0000813349",
-      "publishedBy": "The Wheatley Housing Group Limited",
-      "deadlineDate": "05-Dec-25",
-      "noticeType": "02 Contract Notice",
-      "iconFlags": [
-        "Notice published in Find a Tender Service",
-        "Additional documents attached to notice",
-        "Postbox can be used for notice"
-      ],
-      "rawRowText": "24/10/2025\n  \tCorporate Insurances: Property Stock and Combined Liability \n(Opens in new tab)",
-      "category": "ALL_SELECTED",
-      "noticeId": "OCT542085",
-      "buyer": null,
-      "description": null,
-      "closingDate": null,
-      "publishedDate": null,
-      "rawText": "We use cookies to make the site simpler.\nAccept Cookie Settings\nSkip to main content\ndehaze\n 0800 222 9003\nView Notice\nHome > \nView Notice\n\nDo you wish to record an interest in this notice?\nDo you require any additional documents?\n\nNotice Details\nIntroduction\nFull Notice Text\nFurther Info\nContact Info\nCoding\nTitle:\tCorporate Insurances: Property Stock and Combined Liability\nReference No:\tOCT542085\nOCID:\tocds-r6ebe6-0000813349\nPublished by:\tThe Wheatley Housing Group Limited\nPublication Date:\t24/10/2025\nDeadline Date:\t05/12/2025\nDeadline Time:\t12:00\nNotice Type:\t02 Contract Notice\nHas Documents:\tYes\nHas SPD:\tYes\nAbstract:\tWheatley Housing Group wishes to place a programme of insurance in relation to property stock and combined liability. Full details are\nincluded within the Tender Documentation.\nCPV: 66510000, 66515200, 66516000.\nPrint or Save this Notice\nDownload PDF\nDownload HTML\nDownload XML(13)\n\n\nFurther Instructions\n\nThe Buyer has attached further instructions with this notice. Please read these carefully and take the necessary action(s).\n\nRecord your interest\nPostbox\nQ & A\nAdditional Documents\n\nRecord your interest in this notice and you will be automatically sent clarifications and deadline date changes etc. Please note that recording your interest does not automatically enter you into the tender process for this notice, you still have to submit your response by the deadline stated. To record an interest in this notice and add it to your interests list please click the Record your interest now button at the top of the page.\n\nCopyright © Public Contracts Scotland\n\nContact Us\nWebsite Technical Support\n0800 222 9003\nOpening hours: 08:30 - 17:00\n  \nHome\nSearch Notices\nSearch Buyers\nSuppliers Area\nBuyers Area\nRegister\nNews & Events\nAbout Us\nInformation & Support\nAccessibility\nContact Us\nLogin\nTerms & Conditions | Privacy Policy & Cookies | Sitemap | ©2023 Proactis"
-    },
-    {
-      "date": "24/10/2025",
-      "title": "View Notice",
-      "detailUrl": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=OCT542084",
-      "referenceNo": "OCT542084",
-      "ocid": "ocds-r6ebe6-0000813954",
-      "publishedBy": "The City of Edinburgh Council",
-      "deadlineDate": null,
-      "noticeType": "03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)",
-      "iconFlags": [
-        "Low value notice below the EU thresholds"
-      ],
-      "rawRowText": "24/10/2025\n\tCT2811 WP12-059/25-26 A8/A89 – SURVEYING WORKS \n(Opens in new tab)",
-      "category": "ALL_SELECTED",
-      "noticeId": "OCT542084",
-      "buyer": null,
-      "description": null,
-      "closingDate": null,
-      "publishedDate": null,
-      "rawText": "We use cookies to make the site simpler.\nAccept Cookie Settings\nSkip to main content\ndehaze\n 0800 222 9003\nView Notice\nHome > \nView Notice\n\nThe buyer is not using this website to administer the notice. To record your interest or obtain additional information or documents please find instructions within the Full Notice Text. (NOTE: Contract Award Notices and Prior Information Notices do not normally require a response)\n\nAdd notice to my Public Contracts Scotland Interest List\n\nNotice Details\nIntroduction\nFull Notice Text\nFurther Info\nContact Info\nCoding\nTitle:\tCT2811 WP12-059/25-26 A8/A89 – SURVEYING WORKS\nReference No:\tOCT542084\nOCID:\tocds-r6ebe6-0000813954\nPublished by:\tThe City of Edinburgh Council\nPublication Date:\t24/10/2025\nDeadline Date:\t\nDeadline Time:\t\nNotice Type:\t03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)\nHas Documents:\tNo\nHas SPD:\tNo\nAbstract:\tRoad Survey\nCPV: 71355000.\nPrint or Save this Notice\nDownload PDF\nDownload HTML\nDownload XML(12)\n\nCopyright © Public Contracts Scotland\n\nContact Us\nWebsite Technical Support\n0800 222 9003\nOpening hours: 08:30 - 17:00\n  \nHome\nSearch Notices\nSearch Buyers\nSuppliers Area\nBuyers Area\nRegister\nNews & Events\nAbout Us\nInformation & Support\nAccessibility\nContact Us\nLogin\nTerms & Conditions | Privacy Policy & Cookies | Sitemap | ©2023 Proactis"
-    },
-    {
-      "date": "24/10/2025",
-      "title": "View Notice",
-      "detailUrl": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=OCT542082",
-      "referenceNo": "OCT542082",
-      "ocid": "ocds-r6ebe6-0000813938",
-      "publishedBy": "NHS Highland",
-      "deadlineDate": null,
+      "date": "29/10/2025",
+      "title": "Fire doors (including communal doors, entrance doors, and associated products)",
+      "detailUrl": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=OCT542311",
+      "referenceNo": "OCT542311",
+      "ocid": "ocds-r6ebe6-0000814266",
+      "publishedBy": "LHC Procurement Group for the Scottish Procurement Alliance (SPA)",
+      "deadlineDate": "",
       "noticeType": "01 Prior Information Notice (PIN)",
       "iconFlags": [
-        "Notice published in Find a Tender Service",
-        "Additional documents attached to notice"
+        "Notice published in Find a Tender Service"
       ],
-      "rawRowText": "24/10/2025\n \tHH072-25-HB Specialist Environmental Aids for Deaf People \n(Opens in new tab)",
+      "rawRowText": "29/10/2025\n\tFire doors (including communal doors, entrance doors, and associated products) \n(Opens in new tab)",
       "category": "ALL_SELECTED",
-      "noticeId": "OCT542082",
-      "buyer": null,
-      "description": null,
-      "closingDate": null,
-      "publishedDate": null,
-      "rawText": "We use cookies to make the site simpler.\nAccept Cookie Settings\nSkip to main content\ndehaze\n 0800 222 9003\nView Notice\nHome > \nView Notice\n\nDo you wish to record an interest in this notice?\nDo you require any additional documents?\n\nNotice Details\nIntroduction\nFull Notice Text\nFurther Info\nContact Info\nCoding\nTitle:\tHH072-25-HB Specialist Environmental Aids for Deaf People\nReference No:\tOCT542082\nOCID:\tocds-r6ebe6-0000813938\nPublished by:\tNHS Highland\nPublication Date:\t24/10/2025\nDeadline Date:\t\nDeadline Time:\t\nNotice Type:\t01 Prior Information Notice (PIN)\nHas Documents:\tYes\nHas SPD:\tNo\nAbstract:\tProvision of Environmental Aids and Equipment\nSupply specialist aids and equipment to enhance independence, safety, and overall wellbeing for individuals with hearing loss across the Highland region.\nMaintenance and Repair Support\nOffer assistance with the servicing and repair of hearing-related equipment provided to individuals.\nRecycling and Disposal of Non-Functional Equipment\nFacilitate the responsible recycling and disposal of returned equipment that is no longer operational.\nTraining and Advisory Services for Deaf Support Staff\nDeliver expert guidance and training to deaf support staff on the use, functionality, and appropriateness of specialist aids and equipment tailored to the needs of individuals with hearing loss.\nWe are inviting responses from current or prospective suppliers of Specialist Environmental Aids for Deaf People. Your feedback will be utilised to inform the commercial strategy and specification. This PIN Notice and associated questionnaire is for information gathering and market engagement only. This is not a call for competition.\nCPV: 33185000, 33196200, 33196100, 33196000, 33185000, 33185100, 85120000, 32552150, 32552160.\nPrint or Save this Notice\nDownload PDF\nDownload HTML\nDownload XML(12)\n\n\nFurther Instructions\n\nThe Buyer has attached further instructions with this notice. Please read these carefully and take the necessary action(s).\n\nRecord your interest\nQ & A\nAdditional Documents\n\nRecord your interest in this notice and you will be automatically sent clarifications and deadline date changes etc. Please note that recording your interest does not automatically enter you into the tender process for this notice, you still have to submit your response by the deadline stated. To record an interest in this notice and add it to your interests list please click the Record your interest now button at the top of the page.\n\nCopyright © Public Contracts Scotland\n\nContact Us\nWebsite Technical Support\n0800 222 9003\nOpening hours: 08:30 - 17:00\n  \nHome\nSearch Notices\nSearch Buyers\nSuppliers Area\nBuyers Area\nRegister\nNews & Events\nAbout Us\nInformation & Support\nAccessibility\nContact Us\nLogin\nTerms & Conditions | Privacy Policy & Cookies | Sitemap | ©2023 Proactis"
+      "noticeId": "OCT542311",
+      "publicationDate": "29/10/2025",
+      "deadlineTime": "",
+      "hasDocuments": false,
+      "hasSpd": false,
+      "abstract": "LHC Procurement Group are seeking suitable suppliers for the upcoming FD9 - Fire Doors framework. This framework is the successor to our current C8 Communal Doors framework and has been retitled to better reflect its content.\nThis framework is designed for the installation, renewal, and associated works for a wide range of fire doorsets across LHCPG clients domestic, commercial, and mixed use premises.\nThe scope covers various materials, including timber, composite, and steel, along with access control provision, ensuring flexibility to meet different project requirements.\nFor timber and composite door products only, this framework includes the installation of fully certified and bi-directionally tested fire-resisting door sets to meet current and future fire safety standards.\nThe scope may also extend to other building openings, and non-fire-rated doors, provided these elements do not form the majority of the works and are not the core focus of the works.\nThe scope of this framework may include, but is not limited to:\n- Doors\n- Flat entrance doors\n- Street doors\n- Communal doors\n- Main entrance doors\n- Internal doors and screens\n- Specialist doors, including pivot doors, cell doors, and security grilles (primarily under\nsteel applications)\n- Fire-resisting door sets (timber, composite, and steel materials)\n- Enhanced security doors (PAS 24/LPS1175-[SBD])\nThis framework covers both internal and external applications, domestic and nondomestic, with provisions for specialist works where additional expertise is required, such as access control systems, security-rated products, and bespoke glazing solutions.\nAdditionally, the framework encompasses all necessary associated works to ensure a complete and compliant installation, including:\n- Locks, glazing, hinges, and ironmongery\n- Joinery and framing works\n- Making good and associated works following installations as required as necessary to achieve a compliant, durable, and aesthetically suitable finish\nCPV: 45421100, 44221000, 44221000, 44221000, 44221000, 44221000, 44221000, 44221000.",
+      "cpvCodes": [
+        "45421100",
+        "44221000",
+        "44221000",
+        "44221000",
+        "44221000",
+        "44221000",
+        "44221000",
+        "44221000"
+      ],
+      "rawText": "We use cookies to make the site simpler.\nAccept Cookie Settings\nSkip to main content\ndehaze\n 0800 222 9003\nView Notice\nHome > \nView Notice\n\nDo you wish to record an interest in this notice?\n\n\nNotice Details\nIntroduction\nFull Notice Text\nFurther Info\nContact Info\nCoding\nTitle:\tFire doors (including communal doors, entrance doors, and associated products)\nReference No:\tOCT542311\nOCID:\tocds-r6ebe6-0000814266\nPublished by:\tLHC Procurement Group for the Scottish Procurement Alliance (SPA)\nPublication Date:\t29/10/2025\nDeadline Date:\t\nDeadline Time:\t\nNotice Type:\t01 Prior Information Notice (PIN)\nHas Documents:\tNo\nHas SPD:\tNo\nAbstract:\tLHC Procurement Group are seeking suitable suppliers for the upcoming FD9 - Fire Doors framework. This framework is the successor to our current C8 Communal Doors framework and has been retitled to better reflect its content.\nThis framework is designed for the installation, renewal, and associated works for a wide range of fire doorsets across LHCPG clients domestic, commercial, and mixed use premises.\nThe scope covers various materials, including timber, composite, and steel, along with access control provision, ensuring flexibility to meet different project requirements.\nFor timber and composite door products only, this framework includes the installation of fully certified and bi-directionally tested fire-resisting door sets to meet current and future fire safety standards.\nThe scope may also extend to other building openings, and non-fire-rated doors, provided these elements do not form the majority of the works and are not the core focus of the works.\nThe scope of this framework may include, but is not limited to:\n- Doors\n- Flat entrance doors\n- Street doors\n- Communal doors\n- Main entrance doors\n- Internal doors and screens\n- Specialist doors, including pivot doors, cell doors, and security grilles (primarily under\nsteel applications)\n- Fire-resisting door sets (timber, composite, and steel materials)\n- Enhanced security doors (PAS 24/LPS1175-[SBD])\nThis framework covers both internal and external applications, domestic and nondomestic, with provisions for specialist works where additional expertise is required, such as access control systems, security-rated products, and bespoke glazing solutions.\nAdditionally, the framework encompasses all necessary associated works to ensure a complete and compliant installation, including:\n- Locks, glazing, hinges, and ironmongery\n- Joinery and framing works\n- Making good and associated works following installations as required as necessary to achieve a compliant, durable, and aesthetically suitable finish\nCPV: 45421100, 44221000, 44221000, 44221000, 44221000, 44221000, 44221000, 44221000.\nPrint or Save this Notice\nDownload PDF\nDownload HTML\nDownload XML(3)\n\n\nFurther Instructions\n\nThe Buyer has attached further instructions with this notice. Please read these carefully and take the necessary action(s).\n\nRecord your interest\n\nRecord your interest in this notice and you will be automatically sent clarifications and deadline date changes etc. Please note that recording your interest does not automatically enter you into the tender process for this notice, you still have to submit your response by the deadline stated. To record an interest in this notice and add it to your interests list please click the Record your interest now button at the top of the page.\n\nCopyright © Public Contracts Scotland\n\nContact Us\nWebsite Technical Support\n0800 222 9003\nOpening hours: 08:30 - 17:00\n  \nHome\nSearch Notices\nSearch Buyers\nSuppliers Area\nBuyers Area\nRegister\nNews & Events\nAbout Us\nInformation & Support\nAccessibility\nContact Us\nLogin\nTerms & Conditions | Privacy Policy & Cookies | Sitemap | ©2023 Proactis",
+      "fullNotice": {
+        "raw": "Prior information notice\n\nThis notice is for prior information only\n\nSection I: Contracting authority\nI.1) Name and addresses\n\nLHC Procurement Group for the Scottish Procurement Alliance (SPA)\n\n6 Deer Park Avenue\n\nLivingston\n\nEH54 8AF\n\nUK\n\nTelephone: +44 1506894395\n\nE-mail: procurement@lhcprocure.org.uk\n\nNUTS: UKM\n\nInternet address(es)\n\nMain address: http://www.scottishprocurement.scot\n\nAddress of the buyer profile: https://www.publiccontractsscotland.gov.uk/search/Search_AuthProfile.aspx?ID=AA16123\n\nI.2) Joint procurement\n\nThe contract is awarded by a central purchasing body\n\nI.3) Communication\n\nAdditional information can be obtained from the abovementioned address\n\n\n\n\nElectronic communication requires the use of tools and devices that are not generally available. Unrestricted and full direct access to these tools and devices is possible, free of charge, at:\n\nhttps://in-tendhost.co.uk/lhc/aspx/ProjectManage/102\n\n\n\nI.4) Type of the contracting authority\n\nBody governed by public law\n\nI.5) Main activity\n\nOther: Public Sector Framework Provider\n\nSection II: Object\nII.1) Scope of the procurement\nII.1.1) Title\n\nFire doors (including communal doors, entrance doors, and associated products)\n\nReference number: FD9\n\nII.1.2) Main CPV code\n\n45421100\n\n \nII.1.3) Type of contract\n\nWorks\n\nII.1.4) Short description\n\nLHC Procurement Group are seeking suitable suppliers for the upcoming FD9 - Fire Doors framework. This framework is the successor to our current C8 Communal Doors framework and has been retitled to better reflect its content.\n\nThis framework is designed for the installation, renewal, and associated works for a wide range of fire doorsets across LHCPG clients domestic, commercial, and mixed use premises.\n\nThe scope covers various materials, including timber, composite, and steel, along with access control provision, ensuring flexibility to meet different project requirements.\n\nFor timber and composite door products only, this framework includes the installation of fully certified and bi-directionally tested fire-resisting door sets to meet current and future fire safety standards.\n\nThe scope may also extend to other building openings, and non-fire-rated doors, provided these elements do not form the majority of the works and are not the core focus of the works.\n\nThe scope of this framework may include, but is not limited to:\n\n- Doors\n\n- Flat entrance doors\n\n- Street doors\n\n- Communal doors\n\n- Main entrance doors\n\n- Internal doors and screens\n\n- Specialist doors, including pivot doors, cell doors, and security grilles (primarily under\n\nsteel applications)\n\n- Fire-resisting door sets (timber, composite, and steel materials)\n\n- Enhanced security doors (PAS 24/LPS1175-[SBD])\n\nThis framework covers both internal and external applications, domestic and nondomestic, with provisions for specialist works where additional expertise is required, such as access control systems, security-rated products, and bespoke glazing solutions.\n\nAdditionally, the framework encompasses all necessary associated works to ensure a complete and compliant installation, including:\n\n- Locks, glazing, hinges, and ironmongery\n\n- Joinery and framing works\n\n- Making good and associated works following installations as required as necessary to achieve a compliant, durable, and aesthetically suitable finish\n\nII.1.5) Estimated total value\n\nValue excluding VAT: 100 000 000.00  GBP\n\nII.1.6) Information about lots\n\nThis contract is divided into lots: Yes\n\nII.2) Description\n\nLot No: 1\n\nII.2.1) Title\n\nComposite Doors\n\nII.2.2) Additional CPV code(s)\n\n44221000\n\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM\n\nII.2.4) Description of the procurement\n\nCovers the supply and installation of composite doors of mixed material construction such as timber core, GRP or reinforced galvanised steel with associated frames and providing\n\nenhanced security. It also has a provision for maintenance options.\n\nLot No: 2\n\nII.2.1) Title\n\nComposite Fire Doors\n\nII.2.2) Additional CPV code(s)\n\n44221000\n\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM\n\nII.2.4) Description of the procurement\n\nCovers the supply and installation of third party certified (bi-directional fire tested assemblies) to either FD30 or FD60 standards which is awarded to the whole doorset including furniture and frame and covers composite doors of mixed material construction such as timber core, GRP or reinforced galvanised steel with associated frames, It also has a provision for maintenance options.\n\nLot No: 3\n\nII.2.1) Title\n\nTimber Doors\n\nII.2.2) Additional CPV code(s)\n\n44221000\n\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM\n\nII.2.4) Description of the procurement\n\nCovers the supply and installation of all doorsets products in solid wood, hardwood and engineered wood with associated frames providing enhanced security. It also has a provision for maintenance options.\n\nLot No: 4\n\nII.2.1) Title\n\nTimber Fire Doors\n\nII.2.2) Additional CPV code(s)\n\n44221000\n\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM\n\nII.2.4) Description of the procurement\n\nCovers the supply and installation of third party certified (bi-directional fire tested assemblies) to either FD30 or FD60 standards which is awarded to the whole doorset including furniture and frame and comprising products generally in solid wood, hardwood and engineered wood with associated frames, It also has a provision for maintenance options.\n\nLot No: 5\n\nII.2.1) Title\n\nMetallic Doors\n\nII.2.2) Additional CPV code(s)\n\n44221000\n\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM\n\nII.2.4) Description of the procurement\n\nCovers the supply and installation of all metallic (predominately steel manufactured doors), shutters and grilles. It extends to the provision of steel fire doors and specialist doors, and optional aluminium although aluminium is predominately on A8. It also has a provision for maintenance options. Note for evaluation comparisons only steel elements\n\nare mandatory.\n\nLot No: 6\n\nII.2.1) Title\n\nAccess Control Systems\n\nII.2.2) Additional CPV code(s)\n\n44221000\n\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM\n\nII.2.4) Description of the procurement\n\nCovers the supply and installation of remote door access control systems and installations in connection generally with communal entrance and exit door installations. Access systems may be duplex voice only or voice and one-way video. This lot is to include the scope for the supplier to offer a post installation maintenance service. It also has a provision for maintenance options.\n\nLot No: 7\n\nII.2.1) Title\n\nRepairs and Maintenance\n\nII.2.2) Additional CPV code(s)\n\n44221000\n\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM\n\nII.2.4) Description of the procurement\n\nTypical door repairs and maintenance tasks include the replacement of hinges, handles, locks, or door closers, along with the adjustment of door alignment or closing mechanisms to ensure smooth and secure operation. Damaged door panels or glazing may be replaced as needed, while emergency response services can cover boarding up or lock changes following incidents such as vandalism or forced entry. Annual fire door inspections are crucial for compliance, with remedial works carried out to address any\n\nissues identified. Maintenance may also involve the servicing of automatic or powered systems, testing of panic bars and emergency exit mechanisms, and applying weatherproofing or draught-proofing measures to maintain energy efficiency and protect building interiors.\n\nII.3) Estimated date of publication of contract notice:\n\n03/11/2025\n\nSection IV: Procedure\nIV.1) Description\nIV.1.8) Information about Government Procurement Agreement (GPA)\n\nThe procurement is covered by the Government Procurement Agreement: Yes\n\nSection VI: Complementary information\nVI.3) Additional information\n\nNOTE: To register your interest in this notice and obtain any additional information please visit the Public Contracts Scotland Web Site at http://www.publiccontractsscotland.gov.uk/Search/Search_Switch.aspx?ID=814266.\n\n(SC Ref:814266)\n\nVI.5) Date of dispatch of this notice\n\n29/10/2025",
+        "lots": [
+          {
+            "lotNumber": "1",
+            "title": "Composite Doors",
+            "cpvCodes": [
+              "44221000"
+            ],
+            "startDate": null,
+            "endDate": null,
+            "renewal": false,
+            "renewalDescription": null
+          },
+          {
+            "lotNumber": "2",
+            "title": "Composite Fire Doors",
+            "cpvCodes": [
+              "44221000"
+            ],
+            "startDate": null,
+            "endDate": null,
+            "renewal": false,
+            "renewalDescription": null
+          },
+          {
+            "lotNumber": "3",
+            "title": "Timber Doors",
+            "cpvCodes": [
+              "44221000"
+            ],
+            "startDate": null,
+            "endDate": null,
+            "renewal": false,
+            "renewalDescription": null
+          },
+          {
+            "lotNumber": "4",
+            "title": "Timber Fire Doors",
+            "cpvCodes": [
+              "44221000"
+            ],
+            "startDate": null,
+            "endDate": null,
+            "renewal": false,
+            "renewalDescription": null
+          },
+          {
+            "lotNumber": "5",
+            "title": "Metallic Doors",
+            "cpvCodes": [
+              "44221000"
+            ],
+            "startDate": null,
+            "endDate": null,
+            "renewal": false,
+            "renewalDescription": null
+          },
+          {
+            "lotNumber": "6",
+            "title": "Access Control Systems",
+            "cpvCodes": [
+              "44221000"
+            ],
+            "startDate": null,
+            "endDate": null,
+            "renewal": false,
+            "renewalDescription": null
+          },
+          {
+            "lotNumber": "7",
+            "title": "Repairs and Maintenance",
+            "cpvCodes": [
+              "44221000"
+            ],
+            "startDate": null,
+            "endDate": null,
+            "renewal": false,
+            "renewalDescription": null
+          }
+        ],
+        "sections": [
+          {
+            "roman": "I",
+            "heading": "Contracting authority"
+          },
+          {
+            "roman": "II",
+            "heading": "Object"
+          },
+          {
+            "roman": "IV",
+            "heading": "Procedure"
+          },
+          {
+            "roman": "VI",
+            "heading": "Complementary information"
+          }
+        ]
+      },
+      "contactInfo": {
+        "raw": "Main Contact:\tprocurement@lhcprocure.org.uk\nAdmin Contact:\tN/a\nTechnical Contact:\tN/a\nOther Contact:\tN/a",
+        "main": {
+          "raw": "procurement@lhcprocure.org.uk",
+          "name": null,
+          "emails": [
+            "procurement@lhcprocure.org.uk"
+          ]
+        },
+        "admin": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        },
+        "technical": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        },
+        "other": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        }
+      }
     },
     {
-      "date": "24/10/2025",
-      "title": "View Notice",
-      "detailUrl": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=OCT542073",
-      "referenceNo": "OCT542073",
-      "ocid": "ocds-r6ebe6-0000790890",
-      "publishedBy": "Scottish Government",
-      "deadlineDate": null,
+      "date": "29/10/2025",
+      "title": "Mobile Battery Storage Units for EV Charging",
+      "detailUrl": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=OCT542308",
+      "referenceNo": "OCT542308",
+      "ocid": "ocds-r6ebe6-0000753774",
+      "publishedBy": "The Highland Council",
+      "deadlineDate": "",
       "noticeType": "03 Contract Award Notice - Successful Supplier(s)",
       "iconFlags": [
         "Notice published in Find a Tender Service"
       ],
-      "rawRowText": "24/10/2025\n\tProvision of Remotely Piloted Aircraft Services \n(Opens in new tab)",
+      "rawRowText": "29/10/2025\n\tMobile Battery Storage Units for EV Charging \n(Opens in new tab)",
       "category": "ALL_SELECTED",
-      "noticeId": "OCT542073",
-      "buyer": null,
-      "description": null,
-      "closingDate": null,
-      "publishedDate": null,
-      "rawText": "We use cookies to make the site simpler.\nAccept Cookie Settings\nSkip to main content\ndehaze\n 0800 222 9003\nView Notice\nHome > \nView Notice\n\nThe buyer is not using this website to administer the notice. To record your interest or obtain additional information or documents please find instructions within the Full Notice Text. (NOTE: Contract Award Notices and Prior Information Notices do not normally require a response)\n\nAdd notice to my Public Contracts Scotland Interest List\n\nNotice Details\nIntroduction\nFull Notice Text\nFurther Info\nContact Info\nCoding\nDocument Family\nTitle:\tProvision of Remotely Piloted Aircraft Services\nReference No:\tOCT542073\nOCID:\tocds-r6ebe6-0000790890\nPublished by:\tScottish Government\nPublication Date:\t24/10/2025\nDeadline Date:\t\nDeadline Time:\t\nNotice Type:\t03 Contract Award Notice - Successful Supplier(s)\nHas Documents:\tNo\nHas SPD:\tNo\nAbstract:\tThe Scottish Ministers, Marine Directorate invites tenders for the provision of short and medium range Remotely Piloted Aircraft Systems (RPAS) in support of marine and fisheries monitoring, control and surveillance (MCS) in Scottish waters.\nCPV: 79714000, 60445000, 60440000.\nPrint or Save this Notice\nDownload PDF\nDownload HTML\nDownload XML(12)\n\nCopyright © Public Contracts Scotland\n\nContact Us\nWebsite Technical Support\n0800 222 9003\nOpening hours: 08:30 - 17:00\n  \nHome\nSearch Notices\nSearch Buyers\nSuppliers Area\nBuyers Area\nRegister\nNews & Events\nAbout Us\nInformation & Support\nAccessibility\nContact Us\nLogin\nTerms & Conditions | Privacy Policy & Cookies | Sitemap | ©2023 Proactis"
-    },
-    {
-      "date": "24/10/2025",
-      "title": "View Notice",
-      "detailUrl": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=OCT542072",
-      "referenceNo": "OCT542072",
-      "ocid": "ocds-r6ebe6-0000802172",
-      "publishedBy": "The Common Services Agency (more commonly known as NHS National Services Scotland) (NSS)",
-      "deadlineDate": null,
-      "noticeType": "03 Contract Award Notice - Successful Supplier(s)",
-      "iconFlags": [
-        "Notice published in Find a Tender Service"
+      "noticeId": "OCT542308",
+      "publicationDate": "29/10/2025",
+      "deadlineTime": "",
+      "hasDocuments": false,
+      "hasSpd": false,
+      "abstract": "Mobile battery storage units for charging of EVs\nCPV: 31158100, 31000000, 09300000.",
+      "cpvCodes": [
+        "31158100",
+        "31000000",
+        "09300000"
       ],
-      "rawRowText": "24/10/2025\n\tNP31325 Parenteral Nutrition Products \n(Opens in new tab)",
-      "category": "ALL_SELECTED",
-      "noticeId": "OCT542072",
-      "buyer": null,
-      "description": null,
-      "closingDate": null,
-      "publishedDate": null,
-      "rawText": "We use cookies to make the site simpler.\nAccept Cookie Settings\nSkip to main content\ndehaze\n 0800 222 9003\nView Notice\nHome > \nView Notice\n\nThe buyer is not using this website to administer the notice. To record your interest or obtain additional information or documents please find instructions within the Full Notice Text. (NOTE: Contract Award Notices and Prior Information Notices do not normally require a response)\n\nAdd notice to my Public Contracts Scotland Interest List\n\nNotice Details\nIntroduction\nFull Notice Text\nFurther Info\nContact Info\nCoding\nDocument Family\nTitle:\tNP31325 Parenteral Nutrition Products\nReference No:\tOCT542072\nOCID:\tocds-r6ebe6-0000802172\nPublished by:\tThe Common Services Agency (more commonly known as NHS National Services Scotland) (NSS)\nPublication Date:\t24/10/2025\nDeadline Date:\t\nDeadline Time:\t\nNotice Type:\t03 Contract Award Notice - Successful Supplier(s)\nHas Documents:\tNo\nHas SPD:\tNo\nAbstract:\tSupply of Parenteral Nutrition Products for Adult, Paediatric and Neonatal Patients within NHS Scotland.\nCPV: 33600000, 33692200, 33600000, 33600000, 33692200, 33692200, 33692200, 33600000, 33600000, 33692200, 33600000, 33692200.\nPrint or Save this Notice\nDownload PDF\nDownload HTML\nDownload XML(12)\n\nCopyright © Public Contracts Scotland\n\nContact Us\nWebsite Technical Support\n0800 222 9003\nOpening hours: 08:30 - 17:00\n  \nHome\nSearch Notices\nSearch Buyers\nSuppliers Area\nBuyers Area\nRegister\nNews & Events\nAbout Us\nInformation & Support\nAccessibility\nContact Us\nLogin\nTerms & Conditions | Privacy Policy & Cookies | Sitemap | ©2023 Proactis"
+      "rawText": "We use cookies to make the site simpler.\nAccept Cookie Settings\nSkip to main content\ndehaze\n 0800 222 9003\nView Notice\nHome > \nView Notice\n\nThe buyer is not using this website to administer the notice. To record your interest or obtain additional information or documents please find instructions within the Full Notice Text. (NOTE: Contract Award Notices and Prior Information Notices do not normally require a response)\n\nAdd notice to my Public Contracts Scotland Interest List\n\nNotice Details\nIntroduction\nFull Notice Text\nFurther Info\nContact Info\nCoding\nDocument Family\nTitle:\tMobile Battery Storage Units for EV Charging\nReference No:\tOCT542308\nOCID:\tocds-r6ebe6-0000753774\nPublished by:\tThe Highland Council\nPublication Date:\t29/10/2025\nDeadline Date:\t\nDeadline Time:\t\nNotice Type:\t03 Contract Award Notice - Successful Supplier(s)\nHas Documents:\tNo\nHas SPD:\tNo\nAbstract:\tMobile battery storage units for charging of EVs\nCPV: 31158100, 31000000, 09300000.\nPrint or Save this Notice\nDownload PDF\nDownload HTML\nDownload XML(4)\n\nCopyright © Public Contracts Scotland\n\nContact Us\nWebsite Technical Support\n0800 222 9003\nOpening hours: 08:30 - 17:00\n  \nHome\nSearch Notices\nSearch Buyers\nSuppliers Area\nBuyers Area\nRegister\nNews & Events\nAbout Us\nInformation & Support\nAccessibility\nContact Us\nLogin\nTerms & Conditions | Privacy Policy & Cookies | Sitemap | ©2023 Proactis",
+      "fullNotice": {
+        "raw": "Contract award notice\n\nResults of the procurement procedure\n\nSection I: Contracting entity\nI.1) Name and addresses\n\nHighland Council\n\nCouncil Headquarters, Glenurquhart Road\n\nInverness\n\nIV3 5NX\n\nUK\n\nContact person: Fiona Conti\n\nTelephone: +44 1463702255\n\nE-mail: fiona.conti@highland.gov.uk\n\nNUTS: UKM6\n\nInternet address(es)\n\nMain address: www.highland.gov.uk\n\nAddress of the buyer profile: https://www.publiccontractsscotland.gov.uk/search/Search_AuthProfile.aspx?ID=AA00045\n\nI.2) Joint procurement\n\nThe contract is awarded by a central purchasing body\n\nI.4) Type of the contracting authority\n\nRegional or local authority\n\nI.5) Main activity\n\nGeneral public services\n\nSection II: Object\nII.1) Scope of the procurement\nII.1.1) Title\n\nMobile Battery Storage Units for EV Charging\n\nReference number: HC/EVCI/BSU/2024\n\nII.1.2) Main CPV code\n\n31158100\n\n \nII.1.3) Type of contract\n\nSupplies\n\nII.1.4) Short description\n\nMobile battery storage units for charging of EVs\n\nII.1.6) Information about lots\n\nThis contract is divided into lots: No\n\nII.1.7) Total value of the procurement\n\nValue excluding VAT: 279 186.60  GBP\n\nII.2) Description\nII.2.2) Additional CPV code(s)\n\n31000000\n\n09300000\n\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM6\n\n\n\n\nMain site or place of performance:\n\nHighland region\n\nII.2.4) Description of the procurement\n\n2 Mobile battery storage units for charging of Electric Vehicles in rural/grid constrained areas with the Highland region\n\nII.2.5) Award criteria\n\nQuality criterion: Technical response / Weighting: 30\n\nCost criterion: Commercial response / Weighting: 70\n\nII.2.11) Information about options\n\nOptions: No\n\nII.2.13) Information about European Union funds\n\nThe procurement is related to a project and/or programme financed by European Union funds: No\n\nSection IV: Procedure\nIV.1) Description\nIV.1.1) Type of procedure\n\nOpen procedure\n\nIV.1.8) Information about Government Procurement Agreement (GPA)\n\nThe procurement is covered by the Government Procurement Agreement: Yes\n\nIV.2) Administrative information\nIV.2.1) Previous publication concerning this procedure\n\nNotice number in the OJ S:\n\n2023/S 000-037457\n\nSection V: Award of contract\n\nContract No: HC/EVCI/BSU/2024\n\nA contract/lot is awarded: Yes\n\nV.2 Award of contract\nV.2.1) Date of conclusion of the contract\n\n07/03/2023\n\nV.2.2) Information about tenders\n\nNumber of tenders received: 1\n\nNumber of tenders received from SMEs: 1\n\nNumber of tenders received from tenderers from EU Member States: 1\n\nNumber of tenders received from tenderers from non-EU Member States: 0\n\nNumber of tenders received by electronic means: 1\n\nThe contract has been awarded to a group of economic operators: No\n\nV.2.3) Name and address of the contractor\n\nNORCO GROUP LIMITED\n\nNorco House, Pitmedden road, Dyce, Norco house\n\nABERDEEN\n\nAB21 0DT\n\nUK\n\nTelephone: +44 1224729221\n\nNUTS: UKM50\n\nThe contractor is an SME: Yes\n\nV.2.4) Information on value of the contract/lot (excluding VAT)\n\nTotal value of the contract/lot: : 279 186.60  GBP\n\nV.2.5) Information about subcontracting\nSection VI: Complementary information\nVI.3) Additional information\n\n(SC Ref:814265)\n\nVI.4) Procedures for review\nVI.4.1) Review body\n\nHighland Council\n\nCouncil Headquarters\n\nInverness\n\nIV3 5NX\n\nUK\n\nTelephone: +44 1463702255\n\nE-mail: fiona.conti@highland.gov.uk\n\nVI.4.2) Body responsible for mediation procedures\n\nHighland Council\n\nCouncil Headquarters\n\nInverness\n\nIV3 5NX\n\nUK\n\nTelephone: +44 1463702255\n\nE-mail: fiona.conti@highland.gov.uk\n\nVI.4.4) Service from which information about the review procedure may be obtained\n\nHighland Council\n\nCouncil Headquarters\n\nInverness\n\nIV3 5NX\n\nUK\n\nTelephone: +44 1463702255\n\nE-mail: fiona.conti@highland.gov.uk\n\nVI.5) Date of dispatch of this notice\n\n29/10/2025",
+        "lots": [],
+        "sections": [
+          {
+            "roman": "I",
+            "heading": "Contracting entity"
+          },
+          {
+            "roman": "II",
+            "heading": "Object"
+          },
+          {
+            "roman": "IV",
+            "heading": "Procedure"
+          },
+          {
+            "roman": "V",
+            "heading": "Award of contract"
+          },
+          {
+            "roman": "VI",
+            "heading": "Complementary information"
+          }
+        ]
+      },
+      "contactInfo": {
+        "raw": "Main Contact:\tfiona.conti@highland.gov.uk\nAdmin Contact:\tN/a\nTechnical Contact:\tN/a\nOther Contact:\tN/a",
+        "main": {
+          "raw": "fiona.conti@highland.gov.uk",
+          "name": null,
+          "emails": [
+            "fiona.conti@highland.gov.uk"
+          ]
+        },
+        "admin": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        },
+        "technical": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        },
+        "other": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        }
+      }
     },
     {
-      "date": "24/10/2025",
-      "title": "View Notice",
-      "detailUrl": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=OCT542071",
-      "referenceNo": "OCT542071",
-      "ocid": "ocds-r6ebe6-0000813937",
-      "publishedBy": "Orkney Housing Association Ltd",
-      "deadlineDate": "24-Nov-25",
+      "date": "29/10/2025",
+      "title": "Bield Housing and Care Floor Boiler Controls",
+      "detailUrl": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=OCT542305",
+      "referenceNo": "OCT542305",
+      "ocid": "ocds-r6ebe6-0000814262",
+      "publishedBy": "Bield Housing & Care",
+      "deadlineDate": "01/12/2025",
       "noticeType": "02 Contract Notice (below FTS threshold or call offs of any value)",
       "iconFlags": [
         "Low value notice below the EU thresholds",
         "Additional documents attached to notice",
         "Postbox can be used for notice"
       ],
-      "rawRowText": "24/10/2025\n  \tInvitation to Tender for the Provision of Housing and Finance Integrated System \n(Opens in new tab)",
+      "rawRowText": "29/10/2025\n  \tBield Housing and Care Floor Boiler Controls \n(Opens in new tab)",
       "category": "ALL_SELECTED",
-      "noticeId": "OCT542071",
-      "buyer": null,
-      "description": null,
-      "closingDate": null,
-      "publishedDate": null,
-      "rawText": "We use cookies to make the site simpler.\nAccept Cookie Settings\nSkip to main content\ndehaze\n 0800 222 9003\nView Notice\nHome > \nView Notice\n\nDo you wish to record an interest in this notice?\nDo you require any additional documents?\n\nNotice Details\nIntroduction\nFull Notice Text\nFurther Info\nContact Info\nCoding\nTitle:\tInvitation to Tender for the Provision of Housing and Finance Integrated System\nReference No:\tOCT542071\nOCID:\tocds-r6ebe6-0000813937\nPublished by:\tOrkney Housing Association Ltd\nPublication Date:\t24/10/2025\nDeadline Date:\t24/11/2025\nDeadline Time:\t12:00\nNotice Type:\t02 Contract Notice (below FTS threshold or call offs of any value)\nHas Documents:\tYes\nHas SPD:\tNo\nAbstract:\tTenders are being requested for the provision of a license for up to 40 users, approximately 1,149 units (with plans for further development) in management, and around 171 factored properties. Separate areas are required for Orkney Care and Repair and our subsidiary Orkney Housing Enterprises. This is for the software outlined in the technical specification, along with the professional services necessary to implement the software in accordance with OHA's requirements.\nCPV: 72212100.\nPrint or Save this Notice\nDownload PDF\nDownload HTML\nDownload XML(13)\n\n\nFurther Instructions\n\nThe Buyer has attached further instructions with this notice. Please read these carefully and take the necessary action(s).\n\nRecord your interest\nPostbox\nQ & A\nAdditional Documents\n\nRecord your interest in this notice and you will be automatically sent clarifications and deadline date changes etc. Please note that recording your interest does not automatically enter you into the tender process for this notice, you still have to submit your response by the deadline stated. To record an interest in this notice and add it to your interests list please click the Record your interest now button at the top of the page.\n\nCopyright © Public Contracts Scotland\n\nContact Us\nWebsite Technical Support\n0800 222 9003\nOpening hours: 08:30 - 17:00\n  \nHome\nSearch Notices\nSearch Buyers\nSuppliers Area\nBuyers Area\nRegister\nNews & Events\nAbout Us\nInformation & Support\nAccessibility\nContact Us\nLogin\nTerms & Conditions | Privacy Policy & Cookies | Sitemap | ©2023 Proactis"
-    },
-    {
-      "date": "24/10/2025",
-      "title": "View Notice",
-      "detailUrl": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=OCT542068",
-      "referenceNo": "OCT542068",
-      "ocid": "ocds-r6ebe6-0000813924",
-      "publishedBy": "Strathclyde Partnership for Transport",
-      "deadlineDate": null,
-      "noticeType": "01 Prior Information Notice (PIN)",
-      "iconFlags": [
-        "Notice published in Find a Tender Service"
+      "noticeId": "OCT542305",
+      "publicationDate": "29/10/2025",
+      "deadlineTime": "12:00",
+      "hasDocuments": true,
+      "hasSpd": true,
+      "abstract": "Bield Housing and Care are seeking to appoint a single qualified supplier to carry out Annual servicing, Reactive repairs and BMS replacements to maintain our Assisted Living Housing Developments located across Scotland.\nCPV: 45331110, 44620000, 44621200, 42160000, 44621221, 45331110, 50531100.",
+      "cpvCodes": [
+        "45331110",
+        "44620000",
+        "44621200",
+        "42160000",
+        "44621221",
+        "45331110",
+        "50531100"
       ],
-      "rawRowText": "24/10/2025\n\tReal Time Passenger Information Systems & Display Maintenance \n(Opens in new tab)",
-      "category": "ALL_SELECTED",
-      "noticeId": "OCT542068",
-      "buyer": null,
-      "description": null,
-      "closingDate": null,
-      "publishedDate": null,
-      "rawText": "We use cookies to make the site simpler.\nAccept Cookie Settings\nSkip to main content\ndehaze\n 0800 222 9003\nView Notice\nHome > \nView Notice\n\nDo you wish to record an interest in this notice?\n\n\nNotice Details\nIntroduction\nFull Notice Text\nFurther Info\nContact Info\nCoding\nTitle:\tReal Time Passenger Information Systems & Display Maintenance\nReference No:\tOCT542068\nOCID:\tocds-r6ebe6-0000813924\nPublished by:\tStrathclyde Partnership for Transport\nPublication Date:\t24/10/2025\nDeadline Date:\t\nDeadline Time:\t\nNotice Type:\t01 Prior Information Notice (PIN)\nHas Documents:\tNo\nHas SPD:\tNo\nAbstract:\tProcurement of Real Time Passenger Information Systems & Display Maintenance\nCPV: 50312600, 72212670, 50312610, 50312600, 50312620, 72222300, 72267100.\nPrint or Save this Notice\nDownload PDF\nDownload HTML\nDownload XML(14)\n\n\nFurther Instructions\n\nThe Buyer has attached further instructions with this notice. Please read these carefully and take the necessary action(s).\n\nRecord your interest\n\nRecord your interest in this notice and you will be automatically sent clarifications and deadline date changes etc. Please note that recording your interest does not automatically enter you into the tender process for this notice, you still have to submit your response by the deadline stated. To record an interest in this notice and add it to your interests list please click the Record your interest now button at the top of the page.\n\nCopyright © Public Contracts Scotland\n\nContact Us\nWebsite Technical Support\n0800 222 9003\nOpening hours: 08:30 - 17:00\n  \nHome\nSearch Notices\nSearch Buyers\nSuppliers Area\nBuyers Area\nRegister\nNews & Events\nAbout Us\nInformation & Support\nAccessibility\nContact Us\nLogin\nTerms & Conditions | Privacy Policy & Cookies | Sitemap | ©2023 Proactis"
+      "rawText": "We use cookies to make the site simpler.\nAccept Cookie Settings\nSkip to main content\ndehaze\n 0800 222 9003\nView Notice\nHome > \nView Notice\n\nDo you wish to record an interest in this notice?\nDo you require any additional documents?\n\nNotice Details\nIntroduction\nFull Notice Text\nFurther Info\nContact Info\nCoding\nTitle:\tBield Housing and Care Floor Boiler Controls\nReference No:\tOCT542305\nOCID:\tocds-r6ebe6-0000814262\nPublished by:\tBield Housing & Care\nPublication Date:\t29/10/2025\nDeadline Date:\t01/12/2025\nDeadline Time:\t12:00\nNotice Type:\t02 Contract Notice (below FTS threshold or call offs of any value)\nHas Documents:\tYes\nHas SPD:\tYes\nAbstract:\tBield Housing and Care are seeking to appoint a single qualified supplier to carry out Annual servicing, Reactive repairs and BMS replacements to maintain our Assisted Living Housing Developments located across Scotland.\nCPV: 45331110, 44620000, 44621200, 42160000, 44621221, 45331110, 50531100.\nPrint or Save this Notice\nDownload PDF\nDownload HTML\nDownload XML(3)\n\n\nFurther Instructions\n\nThe Buyer has attached further instructions with this notice. Please read these carefully and take the necessary action(s).\n\nRecord your interest\nPostbox\nQ & A\nAdditional Documents\n\nRecord your interest in this notice and you will be automatically sent clarifications and deadline date changes etc. Please note that recording your interest does not automatically enter you into the tender process for this notice, you still have to submit your response by the deadline stated. To record an interest in this notice and add it to your interests list please click the Record your interest now button at the top of the page.\n\nCopyright © Public Contracts Scotland\n\nContact Us\nWebsite Technical Support\n0800 222 9003\nOpening hours: 08:30 - 17:00\n  \nHome\nSearch Notices\nSearch Buyers\nSuppliers Area\nBuyers Area\nRegister\nNews & Events\nAbout Us\nInformation & Support\nAccessibility\nContact Us\nLogin\nTerms & Conditions | Privacy Policy & Cookies | Sitemap | ©2023 Proactis",
+      "fullNotice": {
+        "raw": "Contract Notice (below OJEU threshold)\nSection I: Contracting authority\nI.1) Name and addresses\n\nBield Housing & Care\n\n79 Hopetoun Street\n\nEdinburgh\n\nEH7 4QF\n\nUK\n\nTelephone: +44 1312734078\n\nE-mail: j.brown2@bield.co.uk\n\nFax: +44 1312734078\n\nNUTS: UKM\n\nInternet address(es)\n\nMain address: http://www.bield.co.uk\n\nAddress of the buyer profile: https://www.publiccontractsscotland.gov.uk/search/Search_AuthProfile.aspx?ID=AA13722\n\nI.3) Communication\n\nThe procurement documents are available for unrestricted and full direct access, free of charge at:\n\nhttps://www.publiccontractsscotland.gov.uk/\n\n\n\n\nAdditional information can be obtained from the abovementioned address\n\n\n\n\nTenders or requests to participate must be sent electronically to:\n\nhttps://www.publiccontractsscotland.gov.uk/\n\n\n\nI.4) Type of the contracting authority\n\nOther: Housing Association\n\nI.5) Main activity\n\nHousing and community amenities\n\nSection II: Object\nII.1) Scope of the procurement\nII.1.1) Title\n\nBield Housing and Care Floor Boiler Controls\n\nReference number: DI-097-000-2526\n\nII.1.2) Main CPV code\n\n45331110\n\n \nII.1.3) Type of contract\n\nWorks\n\nII.1.4) Short description\n\nBield Housing and Care are seeking to appoint a single qualified supplier to carry out Annual servicing, Reactive repairs and BMS replacements to maintain our Assisted Living Housing Developments located across Scotland.\n\nII.1.6) Information about lots\n\nThis contract is divided into lots: No\n\nII.2) Description\nII.2.2) Additional CPV code(s)\n\n44620000\n\n44621200\n\n42160000\n\n44621221\n\n45331110\n\n50531100\n\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM75\n\nII.2.4) Description of the procurement\n\nBield Housing and Care are seeking to appoint a single qualified supplier to carry out Annual servicing, Reactive repairs and BMS replacements to maintain our Assisted Living Housing Developments located across Scotland.\n\nII.2.5) Award criteria\n\nCriteria below:\n\nQuality criterion: Quality / Weighting: 60\n\nPrice / Weighting:  40\n\nII.2.7) Duration of the contract, framework agreement or dynamic purchasing system\n\nDuration in months: 12\n\nThis contract is subject to renewal: Yes\n\nDescription of renewals:\n\nOption for a 12 month extension\n\nII.2.9) Information about the limits on the number of candidates to be invited\nII.2.10) Information about variants\n\nVariants will be accepted: No\n\nII.2.11) Information about options\n\nOptions: No\n\nII.2.13) Information about European Union funds\n\nThe procurement is related to a project and/or programme financed by European Union funds: No\n\nSection III: Legal, economic, financial and technical information\nIII.1) Conditions for participation\nIII.1.2) Economic and financial standing\n\nSelection criteria as stated in the procurement documents\n\n\n\nIII.2) Conditions related to the contract\nSection IV: Procedure\nIV.1) Description\nIV.1.1) Type of procedure\n\nOpen procedure\n\nIV.1.8) Information about Government Procurement Agreement (GPA)\n\nThe procurement is covered by the Government Procurement Agreement: No\n\nIV.2) Administrative information\nIV.2.2) Time limit for receipt of tenders or requests to participate\n\nDate: 01/12/2025\n\nLocal time: 12:00\n\nIV.2.4) Languages in which tenders or requests to participate may be submitted\n\nEN\n\nIV.2.7) Conditions for opening of tenders\n\nDate: 01/12/2025\n\nLocal time: 12:00\n\nSection VI: Complementary information\nVI.1) Information about recurrence\n\nThis is a recurrent procurement: No\n\nVI.2) Information about electronic workflows\n\nElectronic ordering will be used\n\nElectronic invoicing will be accepted\n\nElectronic payment will be used\n\nVI.3) Additional information\n\nNOTE: To register your interest in this notice and obtain any additional information please visit the Public Contracts Scotland Web Site at https://www.publiccontractsscotland.gov.uk/Search/Search_Switch.aspx?ID=814262.\n\nThe buyer has indicated that it will accept electronic responses to this notice via the Postbox facility. A user guide is available at https://www.publiccontractsscotland.gov.uk/sitehelp/help_guides.aspx.\n\nSuppliers are advised to allow adequate time for uploading documents and to dispatch the electronic response well in advance of the closing time to avoid any last minute problems.\n\n(SC Ref:814262)\n\nDownload the copy of the online SPD document here (to be completed online through postbox submission): https://www.publiccontractsscotland.gov.uk/ESPD/ESPD_Download.aspx?id=814262\n\nVI.4) Procedures for review\nVI.4.1) Review body\n\nEdinburgh Sheriff Court\n\nEdinburgh\n\nUK\n\nVI.5) Date of dispatch of this notice\n\n29/10/2025",
+        "lots": [],
+        "sections": [
+          {
+            "roman": "I",
+            "heading": "Contracting authority"
+          },
+          {
+            "roman": "II",
+            "heading": "Object"
+          },
+          {
+            "roman": "III",
+            "heading": "Legal, economic, financial and technical information"
+          },
+          {
+            "roman": "IV",
+            "heading": "Procedure"
+          },
+          {
+            "roman": "VI",
+            "heading": "Complementary information"
+          }
+        ]
+      },
+      "contactInfo": {
+        "raw": "Main Contact:\tj.brown2@bield.co.uk\nAdmin Contact:\tN/a\nTechnical Contact:\tN/a\nOther Contact:\tN/a",
+        "main": {
+          "raw": "j.brown2@bield.co.uk",
+          "name": null,
+          "emails": [
+            "j.brown2@bield.co.uk"
+          ]
+        },
+        "admin": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        },
+        "technical": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        },
+        "other": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        }
+      }
     },
     {
-      "date": "24/10/2025",
-      "title": "View Notice",
-      "detailUrl": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=OCT542067",
-      "referenceNo": "OCT542067",
-      "ocid": "ocds-r6ebe6-0000813921",
-      "publishedBy": "Clydebank Housing Association Limited",
-      "deadlineDate": "24-Nov-25",
-      "noticeType": "02 Contract Notice",
+      "date": "29/10/2025",
+      "title": "Invitation to Quote for the Provision of Planned and Reactive Road Maintenance Services Including Snow Clearing",
+      "detailUrl": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=OCT542304",
+      "referenceNo": "OCT542304",
+      "ocid": "ocds-r6ebe6-0000790870",
+      "publishedBy": "Orkney Islands Council",
+      "deadlineDate": "",
+      "noticeType": "03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)",
       "iconFlags": [
-        "Notice published in Find a Tender Service",
+        "Low value notice below the EU thresholds"
+      ],
+      "rawRowText": "29/10/2025\n\tInvitation to Quote for the Provision of Planned and Reactive Road Maintenance Services Including Snow Clearing \n(Opens in new tab)",
+      "category": "ALL_SELECTED",
+      "noticeId": "OCT542304",
+      "publicationDate": "29/10/2025",
+      "deadlineTime": "",
+      "hasDocuments": false,
+      "hasSpd": false,
+      "abstract": "Orkney Islands Council are looking to establish an agreement for the provision of plant and machinery on an as required basis for the hire of various construction plant such as excavators, cranes, tractors and trailers and other heavy machinery. The purpose of this hire would be to provide assistance with planned and reactive road management services and maintenance activities including winter treatment and snow clearing\nCPV: 77111000, 16000000, 43200000, 43300000, 77111000.",
+      "cpvCodes": [
+        "77111000",
+        "16000000",
+        "43200000",
+        "43300000",
+        "77111000"
+      ],
+      "rawText": "We use cookies to make the site simpler.\nAccept Cookie Settings\nSkip to main content\ndehaze\n 0800 222 9003\nView Notice\nHome > \nView Notice\n\nThe buyer is not using this website to administer the notice. To record your interest or obtain additional information or documents please find instructions within the Full Notice Text. (NOTE: Contract Award Notices and Prior Information Notices do not normally require a response)\n\nAdd notice to my Public Contracts Scotland Interest List\n\nNotice Details\nIntroduction\nFull Notice Text\nFurther Info\nContact Info\nCoding\nDocument Family\nTitle:\tInvitation to Quote for the Provision of Planned and Reactive Road Maintenance Services Including Snow Clearing\nReference No:\tOCT542304\nOCID:\tocds-r6ebe6-0000790870\nPublished by:\tOrkney Islands Council\nPublication Date:\t29/10/2025\nDeadline Date:\t\nDeadline Time:\t\nNotice Type:\t03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)\nHas Documents:\tNo\nHas SPD:\tNo\nAbstract:\tOrkney Islands Council are looking to establish an agreement for the provision of plant and machinery on an as required basis for the hire of various construction plant such as excavators, cranes, tractors and trailers and other heavy machinery. The purpose of this hire would be to provide assistance with planned and reactive road management services and maintenance activities including winter treatment and snow clearing\nCPV: 77111000, 16000000, 43200000, 43300000, 77111000.\nPrint or Save this Notice\nDownload PDF\nDownload HTML\nDownload XML(4)\n\nCopyright © Public Contracts Scotland\n\nContact Us\nWebsite Technical Support\n0800 222 9003\nOpening hours: 08:30 - 17:00\n  \nHome\nSearch Notices\nSearch Buyers\nSuppliers Area\nBuyers Area\nRegister\nNews & Events\nAbout Us\nInformation & Support\nAccessibility\nContact Us\nLogin\nTerms & Conditions | Privacy Policy & Cookies | Sitemap | ©2023 Proactis",
+      "fullNotice": {
+        "raw": "Contract Award Notice (below OJEU threshold) or call off from a framework (any value)\n\nResults of the procurement procedure\n\nSection I: Contracting authority\nI.1) Name and addresses\n\nOrkney Islands Council\n\nCouncil Offices, School Place\n\nKirkwall\n\nKW15 1NY\n\nUK\n\nContact person: Denise Link\n\nTelephone: +44 01856873535\n\nE-mail: Denise.link@orkney.gov.uk\n\nFax: +44 01856876158\n\nNUTS: UKM65\n\nInternet address(es)\n\nMain address: http://www.orkney.gov.uk\n\nAddress of the buyer profile: https://www.publiccontractsscotland.gov.uk/search/Search_AuthProfile.aspx?ID=AA00369\n\nI.4) Type of the contracting authority\n\nRegional or local authority\n\nI.5) Main activity\n\nGeneral public services\n\nSection II: Object\nII.1) Scope of the procurement\nII.1.1) Title\n\nInvitation to Quote for the Provision of Planned and Reactive Road Maintenance Services Including Snow Clearing\n\nReference number: OIC/PROC/2087\n\nII.1.2) Main CPV code\n\n77111000\n\n \nII.1.3) Type of contract\n\nServices\n\nII.1.4) Short description\n\nOrkney Islands Council are looking to establish an agreement for the provision of plant and machinery on an as required basis for the hire of various construction plant such as excavators, cranes, tractors and trailers and other heavy machinery. The purpose of this hire would be to provide assistance with planned and reactive road management services and maintenance activities including winter treatment and snow clearing\n\nII.1.6) Information about lots\n\nThis contract is divided into lots: No\n\nII.1.7) Total value of the procurement\n\nValue excluding VAT: 45 000.00  GBP\n\nII.2) Description\nII.2.2) Additional CPV code(s)\n\n16000000\n\n43200000\n\n43300000\n\n77111000\n\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM65\n\n\n\n\nMain site or place of performance:\n\nOrkney Mainland, South linked Isles and Outer Isles\n\nII.2.4) Description of the procurement\n\nOrkney Islands Council are looking to establish an agreement for the provision of plant and machinery on an as required basis for the hire of various construction plant such as excavators, cranes, tractors and trailers and other heavy machinery. The purpose of this hire would be to provide assistance with planned and reactive road management services and maintenance activities including winter treatment and snow clearing.\n\nTypically, the duration will be short term on an as required basis for road maintenance works, street lighting works, drainage works and winter service provision, allowing for flexibility in hiring various equipment as required. The tender will be for a period of 12 months commencing 1 April 2025 and expiring on 31 March 2026.\n\nII.2.5) Award criteria\n\nQuality criterion: Method Statement / Weighting: 60\n\nPrice / Weighting:  40\n\nII.2.11) Information about options\n\nOptions: No\n\nII.2.13) Information about European Union funds\n\nThe procurement is related to a project and/or programme financed by European Union funds: No\n\nSection IV: Procedure\nIV.1) Description\nIV.1.1) Type of procedure\n\nOpen procedure\n\nIV.1.8) Information about Government Procurement Agreement (GPA)\n\nThe procurement is covered by the Government Procurement Agreement: Yes\n\nSection V: Award of contract\n\nContract No: OIC/PROC/2087\n\nA contract/lot is awarded: Yes\n\nV.2 Award of contract\nV.2.1) Date of conclusion of the contract\n\n01/05/2025\n\nV.2.2) Information about tenders\n\nNumber of tenders received: 9\n\nNumber of tenders received from SMEs: 9\n\nNumber of tenders received from tenderers from EU Member States: 0\n\nNumber of tenders received from tenderers from non-EU Member States: 0\n\nNumber of tenders received by electronic means: 5\n\nThe contract has been awarded to a group of economic operators: Yes\n\nV.2.3) Name and address of the contractor\n\nMarwick Groundworks\n\nThe Myre\n\nDeerness\n\nKW17 2QL\n\nUK\n\nTelephone: +44 07834996381\n\nNUTS: UKM65\n\nThe contractor is an SME: Yes\n\nV.2.3) Name and address of the contractor\n\nHeddle Construction Ltd\n\nGrainshore Road, Hatston Industrial Estate\n\nKirkwall\n\nKW15 1FL\n\nUK\n\nTelephone: +44 01856888666\n\nNUTS: UKM65\n\nThe contractor is an SME: Yes\n\nV.2.3) Name and address of the contractor\n\nEoin Muir Plant Hire\n\nBiggings\n\nHolm\n\nKW17 2RX\n\nUK\n\nTelephone: +44 01856781373\n\nNUTS: UKM65\n\nThe contractor is an SME: Yes\n\nV.2.3) Name and address of the contractor\n\nHilton Farm\n\nHilton, Balfour\n\nOrkney\n\nKw172ea\n\nUK\n\nTelephone: +44 01856711239\n\nNUTS: UKM65\n\nThe contractor is an SME: Yes\n\nV.2.3) Name and address of the contractor\n\nCraigie Plant Hire\n\nBraehead, Innertown\n\nStromness\n\nKW16 3JW\n\nUK\n\nTelephone: +44 07572073150\n\nNUTS: UKM65\n\nThe contractor is an SME: Yes\n\nV.2.3) Name and address of the contractor\n\nWest Brough Farm Limited\n\nSanday\n\nKW17 2AY\n\nUK\n\nNUTS: UKM65\n\nThe contractor is an SME: Yes\n\nV.2.3) Name and address of the contractor\n\nK & K Kirkpatrick\n\nLonghope\n\nUK\n\nNUTS: UKM65\n\nThe contractor is an SME: Yes\n\nV.2.3) Name and address of the contractor\n\nStuart James Sailor\n\nRousay\n\nUK\n\nNUTS: UKM65\n\nThe contractor is an SME: Yes\n\nV.2.3) Name and address of the contractor\n\nTerry Todd\n\nStromness\n\nKW16 3AY\n\nUK\n\nNUTS: UKM65\n\nThe contractor is an SME: Yes\n\nV.2.4) Information on value of the contract/lot (excluding VAT)\n\nTotal value of the contract/lot: : 45 000.00  GBP\n\nV.2.5) Information about subcontracting\nSection VI: Complementary information\nVI.3) Additional information\n\nOrkney Islands Council reserves the right to cancel the procurement at any stage and not award a Contract the expenditure, work or effort undertaken by bidders prior to the award of any Contract is accordingly a matter solely for the commercial judgement of bidders.\n\nLate tenders will not be considered by the Council and all questions are to be submitted via the Questions and Answers section of this contract advertisement on PCS.\n\nAn economic operator that suffers, or risks suffering, loss or damage attributable to a breach of duty under the Public Contracts (Scotland) Regulations 2015 may bring proceedings in the Sheriff Court or Court of Session.\n\n(SC Ref:814142)\n\nVI.4) Procedures for review\nVI.4.1) Review body\n\nSheriffs Court\n\nWatergate\n\nKirkwall\n\nKW15 1PD\n\nUK\n\nTelephone: +44 01856872110\n\nVI.5) Date of dispatch of this notice\n\n29/10/2025",
+        "lots": [],
+        "sections": [
+          {
+            "roman": "I",
+            "heading": "Contracting authority"
+          },
+          {
+            "roman": "II",
+            "heading": "Object"
+          },
+          {
+            "roman": "IV",
+            "heading": "Procedure"
+          },
+          {
+            "roman": "V",
+            "heading": "Award of contract"
+          },
+          {
+            "roman": "VI",
+            "heading": "Complementary information"
+          }
+        ]
+      },
+      "contactInfo": {
+        "raw": "Main Contact:\tDenise.link@orkney.gov.uk\nAdmin Contact:\tN/a\nTechnical Contact:\tN/a\nOther Contact:\tN/a",
+        "main": {
+          "raw": "Denise.link@orkney.gov.uk",
+          "name": null,
+          "emails": [
+            "Denise.link@orkney.gov.uk"
+          ]
+        },
+        "admin": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        },
+        "technical": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        },
+        "other": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        }
+      }
+    },
+    {
+      "date": "29/10/2025",
+      "title": "ESOL LEARNING FOR EMPLOYABILITY (ESOL LEAP)",
+      "detailUrl": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=OCT542302",
+      "referenceNo": "OCT542302",
+      "ocid": "ocds-r6ebe6-0000814247",
+      "publishedBy": "Glasgow Life (Culture & Sport Glasgow)",
+      "deadlineDate": "",
+      "noticeType": "03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)",
+      "iconFlags": [
+        "Low value notice below the EU thresholds"
+      ],
+      "rawRowText": "29/10/2025\n\tESOL LEARNING FOR EMPLOYABILITY (ESOL LEAP) \n(Opens in new tab)",
+      "category": "ALL_SELECTED",
+      "noticeId": "OCT542302",
+      "publicationDate": "29/10/2025",
+      "deadlineTime": "",
+      "hasDocuments": false,
+      "hasSpd": false,
+      "abstract": "ESOL LEARNING FOR EMPLOYABILITY (ESOL LEAP)\nCPV: 98000000.",
+      "cpvCodes": [
+        "98000000"
+      ],
+      "rawText": "We use cookies to make the site simpler.\nAccept Cookie Settings\nSkip to main content\ndehaze\n 0800 222 9003\nView Notice\nHome > \nView Notice\n\nThe buyer is not using this website to administer the notice. To record your interest or obtain additional information or documents please find instructions within the Full Notice Text. (NOTE: Contract Award Notices and Prior Information Notices do not normally require a response)\n\nAdd notice to my Public Contracts Scotland Interest List\n\nNotice Details\nIntroduction\nFull Notice Text\nFurther Info\nContact Info\nCoding\nTitle:\tESOL LEARNING FOR EMPLOYABILITY (ESOL LEAP)\nReference No:\tOCT542302\nOCID:\tocds-r6ebe6-0000814247\nPublished by:\tGlasgow Life (Culture & Sport Glasgow)\nPublication Date:\t29/10/2025\nDeadline Date:\t\nDeadline Time:\t\nNotice Type:\t03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)\nHas Documents:\tNo\nHas SPD:\tNo\nAbstract:\tESOL LEARNING FOR EMPLOYABILITY (ESOL LEAP)\nCPV: 98000000.\nPrint or Save this Notice\nDownload PDF\nDownload HTML\nDownload XML(5)\n\nCopyright © Public Contracts Scotland\n\nContact Us\nWebsite Technical Support\n0800 222 9003\nOpening hours: 08:30 - 17:00\n  \nHome\nSearch Notices\nSearch Buyers\nSuppliers Area\nBuyers Area\nRegister\nNews & Events\nAbout Us\nInformation & Support\nAccessibility\nContact Us\nLogin\nTerms & Conditions | Privacy Policy & Cookies | Sitemap | ©2023 Proactis",
+      "fullNotice": {
+        "raw": "Contract Award Notice (below OJEU threshold) or call off from a framework (any value)\n\nResults of the procurement procedure\n\nSection I: Contracting authority\nI.1) Name and addresses\n\nGlasgow Life (Culture & Sport Glasgow)\n\n38 Albion Street\n\nGlasgow\n\nG1 1LH\n\nUK\n\nContact person: Joyce Caldwell\n\nTelephone: +44 1412875923\n\nE-mail: joyce.caldwell@glasgowlife.org.uk\n\nNUTS: UKM82\n\nInternet address(es)\n\nMain address: www.glasgowlife.org.uk\n\nAddress of the buyer profile: https://www.publiccontractsscotland.gov.uk/search/Search_AuthProfile.aspx?ID=AA10287\n\nI.2) Joint procurement\n\nThe contract is awarded by a central purchasing body\n\nI.4) Type of the contracting authority\n\nBody governed by public law\n\nI.5) Main activity\n\nGeneral public services\n\nSection II: Object\nII.1) Scope of the procurement\nII.1.1) Title\n\nESOL LEARNING FOR EMPLOYABILITY (ESOL LEAP)\n\nReference number: GLNCA00000147\n\nII.1.2) Main CPV code\n\n98000000\n\n \nII.1.3) Type of contract\n\nServices\n\nII.1.4) Short description\n\nESOL LEARNING FOR EMPLOYABILITY (ESOL LEAP)\n\nII.1.6) Information about lots\n\nThis contract is divided into lots: No\n\nII.1.7) Total value of the procurement\n\nValue excluding VAT: 80 000.00  GBP\n\nII.2) Description\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM82\n\n\n\n\nMain site or place of performance:\n\nGlasgow\n\nII.2.4) Description of the procurement\n\nESOL Learning for Employability (ESOL LEAP)\n\nII.2.5) Award criteria\n\nPrice\n\nII.2.11) Information about options\n\nOptions: No\n\nII.2.13) Information about European Union funds\n\nThe procurement is related to a project and/or programme financed by European Union funds: No\n\nSection IV: Procedure\nIV.1) Description\nIV.1.1) Type of procedure\n\nAward of a contract without prior publication of a call for competition\n\nJustification for selected award procedure:\n\nThe works, supplies or services can be provided only by a particular economic operator for the following reason: absence of competition for technical reasons\n\nExplanation\n\nJustified under Reg.6(1)(b)(ii) of The Procurement (Scotland) Regulations 2016 - competition is absent for technical reasons\n\nIV.1.8) Information about Government Procurement Agreement (GPA)\n\nThe procurement is covered by the Government Procurement Agreement: Yes\n\nSection V: Award of contract\n\nContract No: GLNCA00000147\n\nA contract/lot is awarded: Yes\n\nV.2 Award of contract\nV.2.1) Date of conclusion of the contract\n\n15/10/2025\n\nV.2.2) Information about tenders\n\nNumber of tenders received: 1\n\nNumber of tenders received from SMEs: 1\n\nNumber of tenders received from tenderers from EU Member States: 0\n\nNumber of tenders received from tenderers from non-EU Member States: 0\n\nNumber of tenders received by electronic means: 1\n\nThe contract has been awarded to a group of economic operators: No\n\nV.2.3) Name and address of the contractor\n\nKlik2learn\n\nClockwise, 77 Renfrew Street, Glasgow\n\nGlasgow\n\nG2 3BZ\n\nUK\n\nTelephone: +044 1413038495\n\nNUTS: UK\n\nThe contractor is an SME: Yes\n\nV.2.4) Information on value of the contract/lot (excluding VAT)\n\nTotal value of the contract/lot: : 80 000.00  GBP\n\nV.2.5) Information about subcontracting\nSection VI: Complementary information\nVI.3) Additional information\n\n(SC Ref:814247)\n\nVI.4) Procedures for review\nVI.4.1) Review body\n\nGlasgow Sheriff Court and Justice of The Peace\n\n1 Carlton Place\n\nGlasgow\n\nG5 9DA\n\nUK\n\nTelephone: +44 141429888\n\nE-mail: glasgow@scotscourt.gov.uk\n\nInternet address(es)\n\nURL: www.scotcourts.gov.uk\n\nVI.5) Date of dispatch of this notice\n\n29/10/2025",
+        "lots": [],
+        "sections": [
+          {
+            "roman": "I",
+            "heading": "Contracting authority"
+          },
+          {
+            "roman": "II",
+            "heading": "Object"
+          },
+          {
+            "roman": "IV",
+            "heading": "Procedure"
+          },
+          {
+            "roman": "V",
+            "heading": "Award of contract"
+          },
+          {
+            "roman": "VI",
+            "heading": "Complementary information"
+          }
+        ]
+      },
+      "contactInfo": {
+        "raw": "Main Contact:\tjoyce.caldwell@glasgowlife.org.uk\nAdmin Contact:\tN/a\nTechnical Contact:\tN/a\nOther Contact:\tN/a",
+        "main": {
+          "raw": "joyce.caldwell@glasgowlife.org.uk",
+          "name": null,
+          "emails": [
+            "joyce.caldwell@glasgowlife.org.uk"
+          ]
+        },
+        "admin": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        },
+        "technical": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        },
+        "other": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        }
+      }
+    },
+    {
+      "date": "29/10/2025",
+      "title": "Employee Health Cash Plan",
+      "detailUrl": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=OCT542301",
+      "referenceNo": "OCT542301",
+      "ocid": "ocds-r6ebe6-0000813237",
+      "publishedBy": "Caledonian Sleeper Limited",
+      "deadlineDate": "14/11/2025",
+      "noticeType": "02 Contract Notice (below FTS threshold or call offs of any value)",
+      "iconFlags": [
+        "Low value notice below the EU thresholds",
         "Additional documents attached to notice",
         "Postbox can be used for notice"
       ],
-      "rawRowText": "24/10/2025\n  \tClydebank Housing Association Ltd. Passenger Lift Servicing and Reactive Maintenance Contract \n(Opens in new tab)",
+      "rawRowText": "29/10/2025\n  \tEmployee Health Cash Plan \n(Opens in new tab)",
       "category": "ALL_SELECTED",
-      "noticeId": "OCT542067",
-      "buyer": null,
-      "description": null,
-      "closingDate": null,
-      "publishedDate": null,
-      "rawText": "We use cookies to make the site simpler.\nAccept Cookie Settings\nSkip to main content\ndehaze\n 0800 222 9003\nView Notice\nHome > \nView Notice\n\nDo you wish to record an interest in this notice?\nDo you require any additional documents?\n\nNotice Details\nIntroduction\nFull Notice Text\nFurther Info\nContact Info\nCoding\nTitle:\tClydebank Housing Association Ltd. Passenger Lift Servicing and Reactive Maintenance Contract\nReference No:\tOCT542067\nOCID:\tocds-r6ebe6-0000813921\nPublished by:\tClydebank Housing Association Limited\nPublication Date:\t24/10/2025\nDeadline Date:\t24/11/2025\nDeadline Time:\t12:00\nNotice Type:\t02 Contract Notice\nHas Documents:\tYes\nHas SPD:\tYes\nAbstract:\tClydebank Housing Association are seeking to enter into a contract with a suitably experienced contractor for the provision of an all-inclusive annual servicing and reactive maintenance contract to their passenger lift installations in Clydebank for a three-year period commencing 1 April 2026 to 31 March 2029 with the possibility of contract extensions up to a maximum of two additional years in total.\nCPV: 50750000, 50750000.\nPrint or Save this Notice\nDownload PDF\nDownload HTML\nDownload XML(13)\n\n\nFurther Instructions\n\nThe Buyer has attached further instructions with this notice. Please read these carefully and take the necessary action(s).\n\nRecord your interest\nPostbox\nQ & A\nAdditional Documents\n\nRecord your interest in this notice and you will be automatically sent clarifications and deadline date changes etc. Please note that recording your interest does not automatically enter you into the tender process for this notice, you still have to submit your response by the deadline stated. To record an interest in this notice and add it to your interests list please click the Record your interest now button at the top of the page.\n\nCopyright © Public Contracts Scotland\n\nContact Us\nWebsite Technical Support\n0800 222 9003\nOpening hours: 08:30 - 17:00\n  \nHome\nSearch Notices\nSearch Buyers\nSuppliers Area\nBuyers Area\nRegister\nNews & Events\nAbout Us\nInformation & Support\nAccessibility\nContact Us\nLogin\nTerms & Conditions | Privacy Policy & Cookies | Sitemap | ©2023 Proactis"
+      "noticeId": "OCT542301",
+      "publicationDate": "29/10/2025",
+      "deadlineTime": "12:00",
+      "hasDocuments": true,
+      "hasSpd": true,
+      "abstract": "Health cash plans allow employees to claim money back on everyday healthcare costs\nCPV: 66512220, 66512200.",
+      "cpvCodes": [
+        "66512220",
+        "66512200"
+      ],
+      "rawText": "We use cookies to make the site simpler.\nAccept Cookie Settings\nSkip to main content\ndehaze\n 0800 222 9003\nView Notice\nHome > \nView Notice\n\nDo you wish to record an interest in this notice?\nDo you require any additional documents?\n\nNotice Details\nIntroduction\nFull Notice Text\nFurther Info\nContact Info\nCoding\nTitle:\tEmployee Health Cash Plan\nReference No:\tOCT542301\nOCID:\tocds-r6ebe6-0000813237\nPublished by:\tCaledonian Sleeper Limited\nPublication Date:\t29/10/2025\nDeadline Date:\t14/11/2025\nDeadline Time:\t12:00\nNotice Type:\t02 Contract Notice (below FTS threshold or call offs of any value)\nHas Documents:\tYes\nHas SPD:\tYes\nAbstract:\tHealth cash plans allow employees to claim money back on everyday healthcare costs\nCPV: 66512220, 66512200.\nPrint or Save this Notice\nDownload PDF\nDownload HTML\nDownload XML(4)\n\n\nFurther Instructions\n\nThe Buyer has attached further instructions with this notice. Please read these carefully and take the necessary action(s).\n\nRecord your interest\nPostbox\nQ & A\nAdditional Documents\n\nRecord your interest in this notice and you will be automatically sent clarifications and deadline date changes etc. Please note that recording your interest does not automatically enter you into the tender process for this notice, you still have to submit your response by the deadline stated. To record an interest in this notice and add it to your interests list please click the Record your interest now button at the top of the page.\n\nCopyright © Public Contracts Scotland\n\nContact Us\nWebsite Technical Support\n0800 222 9003\nOpening hours: 08:30 - 17:00\n  \nHome\nSearch Notices\nSearch Buyers\nSuppliers Area\nBuyers Area\nRegister\nNews & Events\nAbout Us\nInformation & Support\nAccessibility\nContact Us\nLogin\nTerms & Conditions | Privacy Policy & Cookies | Sitemap | ©2023 Proactis",
+      "fullNotice": {
+        "raw": "Contract Notice (below OJEU threshold)\nSection I: Contracting authority\nI.1) Name and addresses\n\nCaledonian Sleeper Limited\n\nBasement and Ground Floor Premises, 1-5 Union Street\n\nInverness\n\nIV1 1PP\n\nUK\n\nContact person: Procurement Team\n\nTelephone: +44 3300600500\n\nE-mail: procurement@caledoniansleeper.scot\n\nNUTS: UK\n\nInternet address(es)\n\nMain address: www.sleeper.scot\n\nAddress of the buyer profile: https://www.publiccontractsscotland.gov.uk/search/Search_AuthProfile.aspx?ID=AA30648\n\nI.2) Joint procurement\n\nThe contract is awarded by a central purchasing body\n\nI.3) Communication\n\nAccess to the procurement documents is restricted. Further information can be obtained at:\n\nwww.publiccontractsscotland.gov.uk\n\n\n\n\nAdditional information can be obtained from the abovementioned address\n\n\n\n\nTenders or requests to participate must be sent electronically to:\n\nwww.publiccontractsscotland.gov.uk\n\n\n\nI.4) Type of the contracting authority\n\nBody governed by public law\n\nI.5) Main activity\n\nOther: Transport / Rail\n\nSection II: Object\nII.1) Scope of the procurement\nII.1.1) Title\n\nEmployee Health Cash Plan\n\nReference number: CPQ-063\n\nII.1.2) Main CPV code\n\n66512220\n\n \nII.1.3) Type of contract\n\nServices\n\nII.1.4) Short description\n\nHealth cash plans allow employees to claim money back on everyday healthcare costs\n\nII.1.6) Information about lots\n\nThis contract is divided into lots: No\n\nII.2) Description\nII.2.2) Additional CPV code(s)\n\n66512200\n\nII.2.3) Place of performance\n\nNUTS code:\n\nUK\n\nII.2.4) Description of the procurement\n\nHealth cash plans allow employees to claim money back on everyday healthcare costs\n\nII.2.5) Award criteria\n\nCriteria below:\n\nQuality criterion: Contribution Requirements / Weighting: 30%\n\nQuality criterion: Description of Each Plan Level / Weighting: 20%\n\nQuality criterion: Contract Management and Reporting / Weighting: 10%\n\nQuality criterion: Additional Services / Weighting: 10%\n\nPrice / Weighting:  30\n\nII.2.7) Duration of the contract, framework agreement or dynamic purchasing system\n\nDuration in months: 36\n\nThis contract is subject to renewal: Yes\n\nDescription of renewals:\n\n24 months fixed with 12 month optional extension\n\nII.2.9) Information about the limits on the number of candidates to be invited\nII.2.10) Information about variants\n\nVariants will be accepted: No\n\nII.2.11) Information about options\n\nOptions: No\n\nII.2.13) Information about European Union funds\n\nThe procurement is related to a project and/or programme financed by European Union funds: No\n\nSection IV: Procedure\nIV.1) Description\nIV.1.1) Type of procedure\n\nOpen procedure\n\nIV.1.8) Information about Government Procurement Agreement (GPA)\n\nThe procurement is covered by the Government Procurement Agreement: Yes\n\nIV.2) Administrative information\nIV.2.2) Time limit for receipt of tenders or requests to participate\n\nDate: 14/11/2025\n\nLocal time: 12:00\n\nIV.2.4) Languages in which tenders or requests to participate may be submitted\n\nEN\n\nIV.2.7) Conditions for opening of tenders\n\nDate: 14/11/2025\n\nLocal time: 12:00\n\nSection VI: Complementary information\nVI.1) Information about recurrence\n\nThis is a recurrent procurement: No\n\nVI.2) Information about electronic workflows\n\nElectronic invoicing will be accepted\n\nElectronic payment will be used\n\nVI.3) Additional information\n\nNOTE: To register your interest in this notice and obtain any additional information please visit the Public Contracts Scotland Web Site at https://www.publiccontractsscotland.gov.uk/Search/Search_Switch.aspx?ID=813237.\n\nThe buyer has indicated that it will accept electronic responses to this notice via the Postbox facility. A user guide is available at https://www.publiccontractsscotland.gov.uk/sitehelp/help_guides.aspx.\n\nSuppliers are advised to allow adequate time for uploading documents and to dispatch the electronic response well in advance of the closing time to avoid any last minute problems.\n\n(SC Ref:813237)\n\nDownload the copy of the online SPD document here (to be completed online through postbox submission): https://www.publiccontractsscotland.gov.uk/ESPD/ESPD_Download.aspx?id=813237\n\nVI.4) Procedures for review\nVI.4.1) Review body\n\nsheriff court\n\nGlasgow\n\nUK\n\nVI.5) Date of dispatch of this notice\n\n29/10/2025",
+        "lots": [],
+        "sections": [
+          {
+            "roman": "I",
+            "heading": "Contracting authority"
+          },
+          {
+            "roman": "II",
+            "heading": "Object"
+          },
+          {
+            "roman": "IV",
+            "heading": "Procedure"
+          },
+          {
+            "roman": "VI",
+            "heading": "Complementary information"
+          }
+        ]
+      },
+      "contactInfo": {
+        "raw": "Main Contact:\tprocurement@caledoniansleeper.scot\nAdmin Contact:\tN/a\nTechnical Contact:\tN/a\nOther Contact:\tN/a",
+        "main": {
+          "raw": "procurement@caledoniansleeper.scot",
+          "name": null,
+          "emails": [
+            "procurement@caledoniansleeper.scot"
+          ]
+        },
+        "admin": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        },
+        "technical": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        },
+        "other": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        }
+      }
     },
     {
-      "date": "24/10/2025",
-      "title": "View Notice",
-      "detailUrl": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=OCT542066",
-      "referenceNo": "OCT542066",
-      "ocid": "ocds-r6ebe6-0000813895",
-      "publishedBy": "NHS Education for Scotland",
-      "deadlineDate": "24-Nov-25",
-      "noticeType": "02 Contract Notice",
+      "date": "29/10/2025",
+      "title": "SLC - Children and Young People’s Independent Advocacy Service",
+      "detailUrl": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=OCT542296",
+      "referenceNo": "OCT542296",
+      "ocid": "ocds-r6ebe6-0000809032",
+      "publishedBy": "South Lanarkshire Council",
+      "deadlineDate": "09/12/2025",
+      "noticeType": "02 Contract Notice (below FTS threshold or call offs of any value)",
       "iconFlags": [
-        "Notice published in Find a Tender Service",
+        "Low value notice below the EU thresholds",
         "PCS-T is used for this notice."
       ],
-      "rawRowText": "24/10/2025\n \tC002156 Provision of an Online Learning and Education Package for GP Registrars in Scotland \n(Opens in new tab)",
+      "rawRowText": "29/10/2025\n \tSLC - Children and Young People’s Independent Advocacy Service \n(Opens in new tab)",
       "category": "ALL_SELECTED",
-      "noticeId": "OCT542066",
-      "buyer": null,
-      "description": null,
-      "closingDate": null,
-      "publishedDate": null,
-      "rawText": "We use cookies to make the site simpler.\nAccept Cookie Settings\nSkip to main content\ndehaze\n 0800 222 9003\nView Notice\nHome > \nView Notice\nPCS-Tender\n\nNOTE: The buyer is using PCS-Tender to carry out this procurement process. Please note this is a separate website and if you are not already registered, you will be required to do so.\n\nPlease visit the PCS-Tender website to express your interest in this Notice and access the tender documentation. Please search for Project Code 30435 under ITTs Open to All Suppliers and use the Search/Filter function, then the Project Code from the dropdown list. Please note that once you have expressed interest in the ITT it will move to your My ITTs area.\n\nIf you have already registered on Public Contracts Scotland and PCS-Tender and paired your accounts you can access PCS-Tender through your Public Contracts Scotland Control Panel.\n\nFor further information on using PCS -Tender or finding an ITT or PQQ on PCS -Tender, please visit Information and Support page - Supplier User Guides.\n\nNotice Details\nIntroduction\nFull Notice Text\nFurther Info\nContact Info\nCoding\nTitle:\tC002156 Provision of an Online Learning and Education Package for GP Registrars in Scotland\nReference No:\tOCT542066\nOCID:\tocds-r6ebe6-0000813895\nPublished by:\tNHS Education for Scotland\nPublication Date:\t24/10/2025\nDeadline Date:\t24/11/2025\nDeadline Time:\t13:00\nNotice Type:\t02 Contract Notice\nHas Documents:\tNo\nHas SPD:\tNo\nAbstract:\tProvision of an Online Learning and Education Package for GP Registrars in Scotland\nCPV: 48190000, 48190000.\nPrint or Save this Notice\nDownload PDF\nDownload HTML\nDownload XML(13)\n\nCopyright © Public Contracts Scotland\n\nContact Us\nWebsite Technical Support\n0800 222 9003\nOpening hours: 08:30 - 17:00\n  \nHome\nSearch Notices\nSearch Buyers\nSuppliers Area\nBuyers Area\nRegister\nNews & Events\nAbout Us\nInformation & Support\nAccessibility\nContact Us\nLogin\nTerms & Conditions | Privacy Policy & Cookies | Sitemap | ©2023 Proactis"
+      "noticeId": "OCT542296",
+      "publicationDate": "29/10/2025",
+      "deadlineTime": "12:00",
+      "hasDocuments": false,
+      "hasSpd": false,
+      "abstract": "South Lanarkshire Council (the Council), Social Work Resources is seeking to commission one provider to deliver an independent advocacy service for Children and Young People aged up to 18 years (or aged up to 26 where relevant care experience applies). The Provider will be expected to demonstrate the quality of the Services provided.\n2.6. Children and young people may have a range of additional support needs including physical disabilities, epilepsy, sensory impairment, mental health difficulties, learning disability, autism, neurodivergent, communication difficulties or challenging behaviour.\nContract Duration is for an initial 4 years with an optional 2 year extension subject to satisfactory\nperformance, financial standing and funding being available.\nCPV: 85300000, 85300000, 98000000.",
+      "cpvCodes": [
+        "85300000",
+        "85300000",
+        "98000000"
+      ],
+      "rawText": "We use cookies to make the site simpler.\nAccept Cookie Settings\nSkip to main content\ndehaze\n 0800 222 9003\nView Notice\nHome > \nView Notice\nPCS-Tender\n\nNOTE: The buyer is using PCS-Tender to carry out this procurement process. Please note this is a separate website and if you are not already registered, you will be required to do so.\n\nPlease visit the PCS-Tender website to express your interest in this Notice and access the tender documentation. Please search for Project Code 58626 under ITTs Open to All Suppliers and use the Search/Filter function, then the Project Code from the dropdown list. Please note that once you have expressed interest in the ITT it will move to your My ITTs area.\n\nIf you have already registered on Public Contracts Scotland and PCS-Tender and paired your accounts you can access PCS-Tender through your Public Contracts Scotland Control Panel.\n\nFor further information on using PCS -Tender or finding an ITT or PQQ on PCS -Tender, please visit Information and Support page - Supplier User Guides.\n\nNotice Details\nIntroduction\nFull Notice Text\nFurther Info\nContact Info\nCoding\nTitle:\tSLC - Children and Young People’s Independent Advocacy Service\nReference No:\tOCT542296\nOCID:\tocds-r6ebe6-0000809032\nPublished by:\tSouth Lanarkshire Council\nPublication Date:\t29/10/2025\nDeadline Date:\t09/12/2025\nDeadline Time:\t12:00\nNotice Type:\t02 Contract Notice (below FTS threshold or call offs of any value)\nHas Documents:\tNo\nHas SPD:\tNo\nAbstract:\tSouth Lanarkshire Council (the Council), Social Work Resources is seeking to commission one provider to deliver an independent advocacy service for Children and Young People aged up to 18 years (or aged up to 26 where relevant care experience applies). The Provider will be expected to demonstrate the quality of the Services provided.\n2.6. Children and young people may have a range of additional support needs including physical disabilities, epilepsy, sensory impairment, mental health difficulties, learning disability, autism, neurodivergent, communication difficulties or challenging behaviour.\nContract Duration is for an initial 4 years with an optional 2 year extension subject to satisfactory\nperformance, financial standing and funding being available.\nCPV: 85300000, 85300000, 98000000.\nPrint or Save this Notice\nDownload PDF\nDownload HTML\nDownload XML(4)\n\nCopyright © Public Contracts Scotland\n\nContact Us\nWebsite Technical Support\n0800 222 9003\nOpening hours: 08:30 - 17:00\n  \nHome\nSearch Notices\nSearch Buyers\nSuppliers Area\nBuyers Area\nRegister\nNews & Events\nAbout Us\nInformation & Support\nAccessibility\nContact Us\nLogin\nTerms & Conditions | Privacy Policy & Cookies | Sitemap | ©2023 Proactis",
+      "fullNotice": {
+        "raw": "Contract Notice (below OJEU threshold)\nSection I: Contracting authority\nI.1) Name and addresses\n\nSouth Lanarkshire Council\n\nCouncil Headquarters, Almada Street, Almada Street\n\nHamilton\n\nML3 0AA\n\nUK\n\nContact person: Natalie McCrone\n\nTelephone: +44 1698454793\n\nE-mail: natalie.mccrone@southlanarkshire.gov.uk\n\nNUTS: UKM95\n\nInternet address(es)\n\nMain address: http://www.southlanarkshire.gov.uk\n\nAddress of the buyer profile: https://www.publiccontractsscotland.gov.uk/search/Search_AuthProfile.aspx?ID=AA00410\n\nI.3) Communication\n\nThe procurement documents are available for unrestricted and full direct access, free of charge at:\n\nwww.publictendersscotland.publiccontractsscotland.gov.uk\n\n\n\n\nAdditional information can be obtained from the abovementioned address\n\n\n\n\nTenders or requests to participate must be sent electronically to:\n\nwww.publictendersscotland.publiccontractsscotland.gov.uk\n\n\n\nI.4) Type of the contracting authority\n\nRegional or local authority\n\nI.5) Main activity\n\nGeneral public services\n\nSection II: Object\nII.1) Scope of the procurement\nII.1.1) Title\n\nSLC - Children and Young People’s Independent Advocacy Service\n\nReference number: SLC/SW/24/003\n\nII.1.2) Main CPV code\n\n85300000\n\n \nII.1.3) Type of contract\n\nServices\n\nII.1.4) Short description\n\nSouth Lanarkshire Council (the Council), Social Work Resources is seeking to commission one provider to deliver an independent advocacy service for Children and Young People aged up to 18 years (or aged up to 26 where relevant care experience applies). The Provider will be expected to demonstrate the quality of the Services provided.\n\n2.6. Children and young people may have a range of additional support needs including physical disabilities, epilepsy, sensory impairment, mental health difficulties, learning disability, autism, neurodivergent, communication difficulties or challenging behaviour.\n\nContract Duration is for an initial 4 years with an optional 2 year extension subject to satisfactory\n\nperformance, financial standing and funding being available.\n\nII.1.5) Estimated total value\n\nValue excluding VAT: 704 820.00  GBP\n\nII.1.6) Information about lots\n\nThis contract is divided into lots: No\n\nII.2) Description\nII.2.2) Additional CPV code(s)\n\n85300000\n\n98000000\n\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM95\n\nII.2.4) Description of the procurement\n\nSouth Lanarkshire Council (the Council), Social Work Resources is seeking to commission one provider to deliver an independent advocacy service for Children and Young People aged up to 18 years (or aged up to 26 where relevant care experience applies). The Provider will be expected to demonstrate the quality of the Services provided.\n\nChildren and young people may have a range of additional support needs including physical disabilities, epilepsy, sensory impairment, mental health difficulties, learning disability, autism, neurodivergent, communication difficulties or challenging behaviour.\n\nContract Duration is for an initial 4 years with an optional 2 year extension subject to satisfactory\n\nperformance, financial standing and funding being available.\n\nII.2.5) Award criteria\n\nCriteria below:\n\nQuality criterion: Quality / Weighting: 70\n\nPrice / Weighting:  30\n\nII.2.6) Estimated value\n\nValue excluding VAT: 704 820.00  GBP\n\nII.2.7) Duration of the contract, framework agreement or dynamic purchasing system\n\nDuration in months: 48\n\nThis contract is subject to renewal: Yes\n\nDescription of renewals:\n\nThe Council will have the option to extend for a further 2 years subject to the availability of funding, the contractors satisfactory performance, the Council having\n\nsecured all necessary internal Council approvals and the Council being satisfied with the contractor's financial standing.\n\nII.2.9) Information about the limits on the number of candidates to be invited\nII.2.10) Information about variants\n\nVariants will be accepted: No\n\nII.2.11) Information about options\n\nOptions: No\n\nII.2.13) Information about European Union funds\n\nThe procurement is related to a project and/or programme financed by European Union funds: No\n\nII.2.14) Additional information\n\nIf interested in responding to the tender opportunity when it becomes available, please ensure that you are registered with PCS-t.\n\nSection III: Legal, economic, financial and technical information\nIII.1) Conditions for participation\nIII.1.1) Suitability to pursue the professional activity, including requirements relating to enrolment on professional or trade registers\n\nList and brief description of conditions:\n\nSPD Question 4A.1 Trade Registers\n\nIt is a requirement of this tender that if the bidder is UK based they must hold a valid registration with Companies House. Where the bidder\n\nis UK based but not registered at Companies House they must be able to verify to the Councils satisfaction that they are trading from the address provided in the tender and under the company name given.\n\nIf the bidder is based out-with the UK they must be enrolled in the relevant professional or trade register appropriate to their country as\n\ndescribed in Schedule 5 of the Public Contracts (Scotland) Regulations 2015.\n\nSPD Question 4A.2 Authorisation/Membership\n\nWhere it is required, within a bidder’s country of establishment they must confirm which authorisation or memberships of the relevant organisation(s) are required in order to perform this service.\n\nBidders must confirm if they hold the particular authorisation or memberships.\n\nIII.1.2) Economic and financial standing\n\nSelection criteria as stated in the procurement documents\n\n\n\nIII.1.3) Technical and professional ability\n\nSelection criteria as stated in the procurement documents\n\n\n\nIII.2) Conditions related to the contract\nSection IV: Procedure\nIV.1) Description\nIV.1.1) Type of procedure\n\nOpen procedure\n\nIV.1.8) Information about Government Procurement Agreement (GPA)\n\nThe procurement is covered by the Government Procurement Agreement: Yes\n\nIV.2) Administrative information\nIV.2.2) Time limit for receipt of tenders or requests to participate\n\nDate: 09/12/2025\n\nLocal time: 12:00\n\nIV.2.4) Languages in which tenders or requests to participate may be submitted\n\nEN\n\nIV.2.7) Conditions for opening of tenders\n\nDate: 09/12/2025\n\nLocal time: 12:00\n\nPlace:\n\nSouth Lanarkshire Council\n\nInformation about authorised persons and opening procedure:\n\nSealed sequential opening\n\nSection VI: Complementary information\nVI.1) Information about recurrence\n\nThis is a recurrent procurement: No\n\nVI.2) Information about electronic workflows\n\nElectronic ordering will be used\n\nElectronic invoicing will be accepted\n\nElectronic payment will be used\n\nVI.3) Additional information\n\nSPD Q2.C.1 Reliance on the capacities of other entities\n\nBidders are required to complete a full SPD for each of the entities whose capacity they rely upon\n\nSPD Q2.D.1 Subcontractors on whose capacity the bidder does not rely\n\nBidders are required to complete a shortened version of the SPD for each Subcontractor on whose capacity the bidder does not rely on\n\nExclusion Criteria\n\nEconomic operators may be excluded from this competition if they are in any of the situations referred to in regulation 58 of the Public\n\nContracts (Scotland) Regulations 2015.\n\nSPD Q3A–3C have been identified as mandatory exclusion grounds and SPD Q3D have been identified as discretionary exclusion grounds.\n\nAll the exclusion grounds will be assessed on a PASS/FAIL basis. For the mandatory exclusion grounds a bid will be excluded where the\n\nbidder fails to provide either a positive response or to provide details to the satisfaction of the Council of the self cleansing measures\n\nundertaken. .For the discretionary exclusion grounds a bid may be excluded where the bidder fails to provide either a positive response or if\n\nthe Council is not satisfied as to the self cleansing measures undertaken.\n\nDeclarations and Certificates\n\nIn an open tendering procedure prior to any award being made the successful bidder will provide the undernoted certificates, declarations\n\nand/or completed questionnaires to evidence their compliance with the relevant questions within the Qualification Envelope.\n\nAll certificates, declarations and questionnaires can be found within the Attachment area of PCS-T.\n\nThe buyer is using PCS-Tender to conduct this ITT exercise. The Project code is 58626. For more information see: http://www.publiccontractsscotland.gov.uk/info/InfoCentre.aspx?ID=2343\n\nCommunity benefits are included in this requirement. For more information see: https://www.gov.scot/policies/public-sector-procurement/community-benefits-in-procurement/\n\nA summary of the expected community benefits has been provided as follows:\n\nThe Council are committed to securing Community Benefits through its contracts.\n\nBidders are required to detail any Community Benefits you wish to offer the Council as part of your bid.\n\nPlease refer to tender documents regarding Community Benefits.\n\n(SC Ref:809032)\n\nVI.4) Procedures for review\nVI.4.1) Review body\n\nHamilton Sheriff Court\n\nSheriff Court House, 4 Beckford Street,\n\nHamilton\n\nML3 0BT\n\nUK\n\nTelephone: +44 1698282957\n\nE-mail: hamiltoncivl@scotcourts.gov.uk\n\nVI.5) Date of dispatch of this notice\n\n29/10/2025",
+        "lots": [],
+        "sections": [
+          {
+            "roman": "I",
+            "heading": "Contracting authority"
+          },
+          {
+            "roman": "II",
+            "heading": "Object"
+          },
+          {
+            "roman": "III",
+            "heading": "Legal, economic, financial and technical information"
+          },
+          {
+            "roman": "IV",
+            "heading": "Procedure"
+          },
+          {
+            "roman": "VI",
+            "heading": "Complementary information"
+          }
+        ]
+      },
+      "contactInfo": {
+        "raw": "Main Contact:\tnatalie.mccrone@southlanarkshire.gov.uk\nAdmin Contact:\tN/a\nTechnical Contact:\tN/a\nOther Contact:\tN/a",
+        "main": {
+          "raw": "natalie.mccrone@southlanarkshire.gov.uk",
+          "name": null,
+          "emails": [
+            "natalie.mccrone@southlanarkshire.gov.uk"
+          ]
+        },
+        "admin": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        },
+        "technical": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        },
+        "other": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        }
+      }
     },
     {
-      "date": "24/10/2025",
-      "title": "View Notice",
-      "detailUrl": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=OCT542065",
-      "referenceNo": "OCT542065",
-      "ocid": "ocds-r6ebe6-0000813858",
-      "publishedBy": "Perth & Kinross Council",
-      "deadlineDate": null,
+      "date": "29/10/2025",
+      "title": "CE-168-25-DA Servicing & Maintenance of Oil, Electric and Solid Fuel Heating",
+      "detailUrl": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=OCT542295",
+      "referenceNo": "OCT542295",
+      "ocid": "ocds-r6ebe6-0000814236",
+      "publishedBy": "South Ayrshire Council",
+      "deadlineDate": "",
+      "noticeType": "03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)",
+      "iconFlags": [
+        "Low value notice below the EU thresholds"
+      ],
+      "rawRowText": "29/10/2025\n\tCE-168-25-DA Servicing & Maintenance of Oil, Electric and Solid Fuel Heating \n(Opens in new tab)",
+      "category": "ALL_SELECTED",
+      "noticeId": "OCT542295",
+      "publicationDate": "29/10/2025",
+      "deadlineTime": "",
+      "hasDocuments": false,
+      "hasSpd": false,
+      "abstract": "Servicing & Maintenance of Oil, Electric and Solid Fuel Heating\nCPV: 50720000.",
+      "cpvCodes": [
+        "50720000"
+      ],
+      "rawText": "We use cookies to make the site simpler.\nAccept Cookie Settings\nSkip to main content\ndehaze\n 0800 222 9003\nView Notice\nHome > \nView Notice\n\nThe buyer is not using this website to administer the notice. To record your interest or obtain additional information or documents please find instructions within the Full Notice Text. (NOTE: Contract Award Notices and Prior Information Notices do not normally require a response)\n\nAdd notice to my Public Contracts Scotland Interest List\n\nNotice Details\nIntroduction\nFull Notice Text\nFurther Info\nContact Info\nCoding\nTitle:\tCE-168-25-DA Servicing & Maintenance of Oil, Electric and Solid Fuel Heating\nReference No:\tOCT542295\nOCID:\tocds-r6ebe6-0000814236\nPublished by:\tSouth Ayrshire Council\nPublication Date:\t29/10/2025\nDeadline Date:\t\nDeadline Time:\t\nNotice Type:\t03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)\nHas Documents:\tNo\nHas SPD:\tNo\nAbstract:\tServicing & Maintenance of Oil, Electric and Solid Fuel Heating\nCPV: 50720000.\nPrint or Save this Notice\nDownload PDF\nDownload HTML\nDownload XML(4)\n\nCopyright © Public Contracts Scotland\n\nContact Us\nWebsite Technical Support\n0800 222 9003\nOpening hours: 08:30 - 17:00\n  \nHome\nSearch Notices\nSearch Buyers\nSuppliers Area\nBuyers Area\nRegister\nNews & Events\nAbout Us\nInformation & Support\nAccessibility\nContact Us\nLogin\nTerms & Conditions | Privacy Policy & Cookies | Sitemap | ©2023 Proactis",
+      "fullNotice": {
+        "raw": "Contract Award Notice (below OJEU threshold) or call off from a framework (any value)\n\nResults of the procurement procedure\n\nSection I: Contracting authority\nI.1) Name and addresses\n\nSouth Ayrshire Council\n\nCounty Buildings, Wellington Square\n\nAyr\n\nKA7 1DR\n\nUK\n\nTelephone: +44 3001230900\n\nE-mail: Procurement@south-ayrshire.gov.uk\n\nNUTS: UKM94\n\nInternet address(es)\n\nMain address: http://www.south-ayrshire.gov.uk/procurement/\n\nAddress of the buyer profile: https://www.publiccontractsscotland.gov.uk/search/Search_AuthProfile.aspx?ID=AA00405\n\nI.2) Joint procurement\n\nThe contract is awarded by a central purchasing body\n\nI.4) Type of the contracting authority\n\nRegional or local authority\n\nI.5) Main activity\n\nGeneral public services\n\nSection II: Object\nII.1) Scope of the procurement\nII.1.1) Title\n\nCE-168-25-DA Servicing & Maintenance of Oil, Electric and Solid Fuel Heating\n\nReference number: CE-168-25-DA\n\nII.1.2) Main CPV code\n\n50720000\n\n \nII.1.3) Type of contract\n\nServices\n\nII.1.4) Short description\n\nServicing & Maintenance of Oil, Electric and Solid Fuel Heating\n\nII.1.6) Information about lots\n\nThis contract is divided into lots: No\n\nII.1.7) Total value of the procurement\n\nValue excluding VAT: 56 000.00  GBP\n\nII.2) Description\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM94\n\nII.2.4) Description of the procurement\n\nServicing & Maintenance of Oil, Electric and Solid Fuel Heating\n\nII.2.5) Award criteria\n\nPrice\n\nII.2.11) Information about options\n\nOptions: No\n\nII.2.13) Information about European Union funds\n\nThe procurement is related to a project and/or programme financed by European Union funds: No\n\nSection IV: Procedure\nIV.1) Description\nIV.1.1) Type of procedure\n\nAward of a contract without prior publication of a call for competition\n\nJustification for selected award procedure:\n\nThe procurement falls outside the scope of application of the Directive\n\nExplanation\n\nCall off from - SXL Property Maintenance & refurbishment Framework 1821\n\nIV.1.8) Information about Government Procurement Agreement (GPA)\n\nThe procurement is covered by the Government Procurement Agreement: Yes\n\nSection V: Award of contract\n\nA contract/lot is awarded: Yes\n\nV.2 Award of contract\nV.2.1) Date of conclusion of the contract\n\n29/09/2025\n\nV.2.2) Information about tenders\n\nNumber of tenders received: 1\n\nNumber of tenders received from SMEs: 0\n\nNumber of tenders received from tenderers from EU Member States: 1\n\nNumber of tenders received from tenderers from non-EU Member States: 0\n\nNumber of tenders received by electronic means: 1\n\nThe contract has been awarded to a group of economic operators: No\n\nV.2.3) Name and address of the contractor\n\nBritish Gas Social Housing Ltd trading as PH Jones\n\nPH Jones Vanguard House, Sci-Tech Daresbury, Keckwick Lane\n\nDaresbury\n\nWA4 4FS\n\nUK\n\nNUTS: UK\n\nThe contractor is an SME: No\n\nV.2.4) Information on value of the contract/lot (excluding VAT)\n\nTotal value of the contract/lot: : 56 000.00  GBP\n\nV.2.5) Information about subcontracting\nSection VI: Complementary information\nVI.3) Additional information\n\n(SC Ref:814236)\n\nVI.4) Procedures for review\nVI.4.1) Review body\n\nAyr Sheriff Court\n\nAyr\n\nUK\n\nVI.5) Date of dispatch of this notice\n\n29/10/2025",
+        "lots": [],
+        "sections": [
+          {
+            "roman": "I",
+            "heading": "Contracting authority"
+          },
+          {
+            "roman": "II",
+            "heading": "Object"
+          },
+          {
+            "roman": "IV",
+            "heading": "Procedure"
+          },
+          {
+            "roman": "V",
+            "heading": "Award of contract"
+          },
+          {
+            "roman": "VI",
+            "heading": "Complementary information"
+          }
+        ]
+      },
+      "contactInfo": {
+        "raw": "Main Contact:\tProcurement@south-ayrshire.gov.uk\nAdmin Contact:\tN/a\nTechnical Contact:\tN/a\nOther Contact:\tN/a",
+        "main": {
+          "raw": "Procurement@south-ayrshire.gov.uk",
+          "name": null,
+          "emails": [
+            "Procurement@south-ayrshire.gov.uk"
+          ]
+        },
+        "admin": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        },
+        "technical": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        },
+        "other": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        }
+      }
+    },
+    {
+      "date": "29/10/2025",
+      "title": "Scottish Seascapes: Isle of Eigg EcoMoorings",
+      "detailUrl": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=OCT542291",
+      "referenceNo": "OCT542291",
+      "ocid": "ocds-r6ebe6-0000810666",
+      "publishedBy": "Marine Conservation Society",
+      "deadlineDate": "13/11/2025",
+      "noticeType": "02 Contract Notice",
+      "iconFlags": [
+        "Notice published in Find a Tender Service"
+      ],
+      "rawRowText": "29/10/2025\n\tScottish Seascapes: Isle of Eigg EcoMoorings \n(Opens in new tab)",
+      "category": "ALL_SELECTED",
+      "noticeId": "OCT542291",
+      "publicationDate": "29/10/2025",
+      "deadlineTime": "12:00",
+      "hasDocuments": false,
+      "hasSpd": false,
+      "abstract": "This invitation to tender covers 4 lots (contracts) to increase the resilience of seagrass meadows around the Isle of Eigg, Small Isles, Scotland through the planning, purchase and installation of Advance Mooring Systems (AMS). These contracts include the procurement of capital equipment. All procurement will be undertaken by the Marine Conservation Society in alignment with their procurement policy.\nPriority locations have been identified by the community and seagrass surveys carried out in summer/autumn 2025. The contractor is expected to build upon this work, as well as take into consideration work undertaken by other initiatives and projects such as the ReMEDIES project on the south coast of England and any previous work carried out on the Isle of Eigg.\nBuilding on previous work and with the help of the Scottish Seascapes Project Manager and the Isle of Eigg Heritage Trusts Scottish Seascapes Project Officer the contractor/s will deliver the following:\na) WP1: Front end engineering & design\nb) WP2: Design & manufacture\nc) WP3: Installation\nd) WP4: Inspections & maintenance\nCPV: 45262421, 45262421, 45262421, 45262421, 45262421.",
+      "cpvCodes": [
+        "45262421",
+        "45262421",
+        "45262421",
+        "45262421",
+        "45262421"
+      ],
+      "rawText": "We use cookies to make the site simpler.\nAccept Cookie Settings\nSkip to main content\ndehaze\n 0800 222 9003\nView Notice\nHome > \nView Notice\n\nDo you wish to record an interest in this notice?\n\n\nNotice Details\nIntroduction\nFull Notice Text\nFurther Info\nContact Info\nCoding\nDocument Family\nTitle:\tScottish Seascapes: Isle of Eigg EcoMoorings\nReference No:\tOCT542291\nOCID:\tocds-r6ebe6-0000810666\nPublished by:\tMarine Conservation Society\nPublication Date:\t29/10/2025\nDeadline Date:\t13/11/2025\nDeadline Time:\t12:00\nNotice Type:\t02 Contract Notice\nHas Documents:\tNo\nHas SPD:\tNo\nAbstract:\tThis invitation to tender covers 4 lots (contracts) to increase the resilience of seagrass meadows around the Isle of Eigg, Small Isles, Scotland through the planning, purchase and installation of Advance Mooring Systems (AMS). These contracts include the procurement of capital equipment. All procurement will be undertaken by the Marine Conservation Society in alignment with their procurement policy.\nPriority locations have been identified by the community and seagrass surveys carried out in summer/autumn 2025. The contractor is expected to build upon this work, as well as take into consideration work undertaken by other initiatives and projects such as the ReMEDIES project on the south coast of England and any previous work carried out on the Isle of Eigg.\nBuilding on previous work and with the help of the Scottish Seascapes Project Manager and the Isle of Eigg Heritage Trusts Scottish Seascapes Project Officer the contractor/s will deliver the following:\na) WP1: Front end engineering & design\nb) WP2: Design & manufacture\nc) WP3: Installation\nd) WP4: Inspections & maintenance\nCPV: 45262421, 45262421, 45262421, 45262421, 45262421.\nPrint or Save this Notice\nDownload PDF\nDownload HTML\nDownload XML(4)\n\n\nFurther Instructions\n\nThe Buyer has attached further instructions with this notice. Please read these carefully and take the necessary action(s).\n\nRecord your interest\nQ & A\n\nRecord your interest in this notice and you will be automatically sent clarifications and deadline date changes etc. Please note that recording your interest does not automatically enter you into the tender process for this notice, you still have to submit your response by the deadline stated. To record an interest in this notice and add it to your interests list please click the Record your interest now button at the top of the page.\n\nCopyright © Public Contracts Scotland\n\nContact Us\nWebsite Technical Support\n0800 222 9003\nOpening hours: 08:30 - 17:00\n  \nHome\nSearch Notices\nSearch Buyers\nSuppliers Area\nBuyers Area\nRegister\nNews & Events\nAbout Us\nInformation & Support\nAccessibility\nContact Us\nLogin\nTerms & Conditions | Privacy Policy & Cookies | Sitemap | ©2023 Proactis",
+      "fullNotice": {
+        "raw": "Contract notice\nSection I: Contracting authority\nI.1) Name and addresses\n\nMarine Conservation Society\n\nSuite 7, CBC House, 24 Canning Street\n\nEdinburgh\n\nEH3 8EG\n\nUK\n\nTelephone: +44 1316334000\n\nE-mail: procurement@mcsuk.org\n\nNUTS: UK\n\nInternet address(es)\n\nMain address: www.mcsuk.org\n\nAddress of the buyer profile: https://www.publiccontractsscotland.gov.uk/search/Search_AuthProfile.aspx?ID=AA29723\n\nI.2) Joint procurement\n\nThe contract is awarded by a central purchasing body\n\nI.3) Communication\n\nThe procurement documents are available for unrestricted and full direct access, free of charge at:\n\nwww.publiccontractsscotland.gov.uk\n\n\n\n\nAdditional information can be obtained from the abovementioned address\n\n\n\n\nTenders or requests to participate must be sent electronically to:\n\nwww.publiccontractsscotland.gov.uk\n\n\n\nI.4) Type of the contracting authority\n\nOther: Charity\n\nI.5) Main activity\n\nRecreation, culture and religion\n\nSection II: Object\nII.1) Scope of the procurement\nII.1.1) Title\n\nScottish Seascapes: Isle of Eigg EcoMoorings\n\nReference number: SS/001\n\nII.1.2) Main CPV code\n\n45262421\n\n \nII.1.3) Type of contract\n\nWorks\n\nII.1.4) Short description\n\nThis invitation to tender covers 4 lots (contracts) to increase the resilience of seagrass meadows around the Isle of Eigg, Small Isles, Scotland through the planning, purchase and installation of Advance Mooring Systems (AMS). These contracts include the procurement of capital equipment. All procurement will be undertaken by the Marine Conservation Society in alignment with their procurement policy.\n\nPriority locations have been identified by the community and seagrass surveys carried out in summer/autumn 2025. The contractor is expected to build upon this work, as well as take into consideration work undertaken by other initiatives and projects such as the ReMEDIES project on the south coast of England and any previous work carried out on the Isle of Eigg.\n\nBuilding on previous work and with the help of the Scottish Seascapes Project Manager and the Isle of Eigg Heritage Trusts Scottish Seascapes Project Officer the contractor/s will deliver the following:\n\na) WP1: Front end engineering & design\n\nb) WP2: Design & manufacture\n\nc) WP3: Installation\n\nd) WP4: Inspections & maintenance\n\nII.1.6) Information about lots\n\nThis contract is divided into lots: Yes\n\nTenders may be submitted for all lots\n\nII.2) Description\n\nLot No: 1\n\nII.2.1) Title\n\nEco-mooring front end engineering & design\n\nII.2.2) Additional CPV code(s)\n\n45262421\n\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM63\n\n\n\n\nMain site or place of performance:\n\nIsle of Eigg\n\nII.2.4) Description of the procurement\n\nWith the help of the Scottish Seascapes Project Manager and the Isle of Eigg Heritage Trusts Scottish Seascapes Project Officer the contractor/s will deliver *front end engineering & design* comprising the following:\n\na) Pre-project planning, to include assessment of the proposed area and finalisation of locations around Eigg;\n\nb) Aid the Isle of Eigg Heritage Trust and the Scottish Seascapes Project Manager in securing relevant permissions and licences.\n\nII.2.5) Award criteria\n\nCriteria below:\n\nQuality criterion: Quality / Weighting: 20\n\nCost criterion: Cost / Weighting: 20\n\nII.2.7) Duration of the contract, framework agreement or dynamic purchasing system\n\nDuration in months: 2\n\nThis contract is subject to renewal: Yes\n\nDescription of renewals:\n\nExtensions may be requested under extreme circumstances\n\nII.2.9) Information about the limits on the number of candidates to be invited\nII.2.10) Information about variants\n\nVariants will be accepted: No\n\nII.2.11) Information about options\n\nOptions: No\n\nII.2.13) Information about European Union funds\n\nThe procurement is related to a project and/or programme financed by European Union funds: No\n\nLot No: 2\n\nII.2.1) Title\n\nEco-mooring design & manufacture\n\nII.2.2) Additional CPV code(s)\n\n45262421\n\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM63\n\n\n\n\nMain site or place of performance:\n\nIsle of Eigg\n\nII.2.4) Description of the procurement\n\nWith the help of the Scottish Seascapes Project Manager and the Isle of Eigg Heritage Trusts Scottish Seascapes Project Officer the contractor/s will deliver *design & manufacture* comprising the following:\n\na) Design and manufacture for up to 10 moorings, installed at the same time or split into 5 per year over 2 consecutive years;\n\nb) Aid the Project Manager and the Isle of Eigg Heritage Trust select final AMS model(s) that suit the chosen locations and suit the community's needs;\n\nc) Aid the Project Manager in sourcing suitable moorings.\n\nII.2.5) Award criteria\n\nCriteria below:\n\nQuality criterion: Quality / Weighting: 20\n\nCost criterion: Cost / Weighting: 20\n\nII.2.7) Duration of the contract, framework agreement or dynamic purchasing system\n\nDuration in months: 2\n\nThis contract is subject to renewal: Yes\n\nDescription of renewals:\n\nAn extension may be requested in extreme circumstances\n\nII.2.9) Information about the limits on the number of candidates to be invited\nII.2.10) Information about variants\n\nVariants will be accepted: No\n\nII.2.11) Information about options\n\nOptions: No\n\nII.2.13) Information about European Union funds\n\nThe procurement is related to a project and/or programme financed by European Union funds: No\n\nLot No: 3\n\nII.2.1) Title\n\nEco-mooring installation\n\nII.2.2) Additional CPV code(s)\n\n45262421\n\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM63\n\n\n\n\nMain site or place of performance:\n\nIsle of Eigg\n\nII.2.4) Description of the procurement\n\nWith the help of the Scottish Seascapes Project Manager and the Isle of Eigg Heritage Trusts Scottish Seascapes Project Officer the contractor/s will deliver *eco-mooring installation* comprising the following:\n\na) Installation planning and recommendations for maintenance for up to 10 moorings, installed at the same time, or split into 5 per year over 2 consecutive years;\n\nb) Organise and supervise the installation of the AMS;\n\nc) Aid the Project Manager & Isle of Eigg Heritage Trust with finding suitable insurance policies for AMS.\n\nII.2.5) Award criteria\n\nCriteria below:\n\nQuality criterion: Quality / Weighting: 20\n\nCost criterion: Cost / Weighting: 20\n\nII.2.7) Duration of the contract, framework agreement or dynamic purchasing system\n\nDuration in months: 2\n\nThis contract is subject to renewal: Yes\n\nDescription of renewals:\n\nAn extension may be requested in extreme circumstances\n\nII.2.9) Information about the limits on the number of candidates to be invited\nII.2.10) Information about variants\n\nVariants will be accepted: No\n\nII.2.11) Information about options\n\nOptions: No\n\nII.2.13) Information about European Union funds\n\nThe procurement is related to a project and/or programme financed by European Union funds: No\n\nLot No: 4\n\nII.2.1) Title\n\nEco-mooring inspections & maintenance\n\nII.2.2) Additional CPV code(s)\n\n45262421\n\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM63\n\n\n\n\nMain site or place of performance:\n\nIsle of Eigg\n\nII.2.4) Description of the procurement\n\nWith the help of the Scottish Seascapes Project Manager and the Isle of Eigg Heritage Trusts Scottish Seascapes Project Officer the contractor/s will deliver *inspections & maintenance* comprising the following:\n\na) Annual inspections\n\nb) Maintenance costs\n\nII.2.5) Award criteria\n\nCriteria below:\n\nQuality criterion: Quality / Weighting: 20\n\nCost criterion: Cost / Weighting: 20\n\nII.2.7) Duration of the contract, framework agreement or dynamic purchasing system\n\nDuration in months: 2\n\nThis contract is subject to renewal: Yes\n\nDescription of renewals:\n\nAn extension may be requested in extreme circumstances\n\nII.2.9) Information about the limits on the number of candidates to be invited\nII.2.10) Information about variants\n\nVariants will be accepted: No\n\nII.2.11) Information about options\n\nOptions: No\n\nII.2.13) Information about European Union funds\n\nThe procurement is related to a project and/or programme financed by European Union funds: No\n\nSection III: Legal, economic, financial and technical information\nIII.1) Conditions for participation\nIII.1.1) Suitability to pursue the professional activity, including requirements relating to enrolment on professional or trade registers\n\nList and brief description of conditions:\n\nThis information is included in the Tender information\n\nIII.1.2) Economic and financial standing\n\nSelection criteria as stated in the procurement documents\n\n\n\nIII.1.3) Technical and professional ability\n\nSelection criteria as stated in the procurement documents\n\n\n\nIII.2) Conditions related to the contract\nIII.2.3) Information about staff responsible for the performance of the contract\n\nObligation to indicate the names and professional qualifications of the staff assigned to performing the contract\n\nSection IV: Procedure\nIV.1) Description\nIV.1.1) Type of procedure\n\nOpen procedure - Accelerated procedure\n\nJustification:\n\nShort time-frame for completion.\n\nIV.1.8) Information about Government Procurement Agreement (GPA)\n\nThe procurement is covered by the Government Procurement Agreement: Yes\n\nIV.2) Administrative information\nIV.2.1) Previous publication concerning this procedure\n\nNotice number in the OJ S:\n\n2025/S 000-060362\n\nIV.2.2) Time limit for receipt of tenders or requests to participate\n\nDate: 13/11/2025\n\nLocal time: 12:00\n\nIV.2.4) Languages in which tenders or requests to participate may be submitted\n\nEN\n\nIV.2.7) Conditions for opening of tenders\n\nDate: 14/11/2025\n\nLocal time: 12:00\n\nSection VI: Complementary information\nVI.1) Information about recurrence\n\nThis is a recurrent procurement: No\n\nVI.3) Additional information\n\nAdditional Deliverables: Report on work packages 1, 2 & 3 to aid replication of similar AMS deployment and Best Practice\n\nContractors should itemise their tender and provide a detailed timeline and spending package for each work package. Tenders should include:\n\n- Total cost for each work package to include day rate and number of days, and VAT where applicable.\n\n- A detailed methodology for undertaking the work with an explanation of ability to complete the project.\n\n- Evidence of successful track record on projects of a similar nature and scale. Please include reference to procurement and installation of mooring systems or similar.\n\n- The contract manager/lead contact should be identified. If there are a number of people delivering the contract, please indicate who will be doing each task and the allocation of days for each member of the team, the cost of any evaluation software, and any out-of-pocket expenses such as travel.\n\n- Details of quality standards for goods/products and a statement of biosecurity measures that you will undertake.\n\n- Timescales including any specific milestones that must be met. e.g. in the form of a Gantt chart, for carrying out the contract and an estimated invoice schedule.\n\n- Confirmation of professional indemnity and public liability insurance of all those who will be delivering the work.\n\n- Availability & start dates\n\nAdditional information:\n\nAs part of their tender, contractors must provide (on a separate sheet) full contact details for the legal entity we would be contracting with including the name, registered address (and any alternative address for accounts etc), contact name and numbers, payment and banking details and email and website addresses. This sheet will be removed as part of the tender assessment process. Contractors should ensure that no identifying information is included anywhere else on the tender. Work packages 2 & 3 are dependent on successful licensing applications and may be delayed until full licences are granted.\n\nFinal report – The final reports shall be presented as a digital copy in a single Microsoft Word file. All images, illustrations and maps will be embedded in the file and provided separately where they are large.\n\n- Biological records – Any marine biological data shall be presented in an agreed format using approved data guidelines where available. A protocol must be submitted to Marine Conservation Society as part of the finalised project plan.\n\n- Geo-spatial data – Geo-spatial data shall be presented in an agreed format using approved data guidelines where available. A protocol must be submitted to Marine Conservation Society as part of the finalised project plan.\n\n- Metadata – Metadata in standard format must be submitted with the data. Metadata are information about the data, such as the subject matter; how and when the data were collected, etc.\n\nNOTE: To register your interest in this notice and obtain any additional information please visit the Public Contracts Scotland Web Site at http://www.publiccontractsscotland.gov.uk/Search/Search_Switch.aspx?ID=814224.\n\n(SC Ref:814224)\n\nVI.4) Procedures for review\nVI.4.1) Review body\n\nGlasgow Sheriff Court and Justice of the Peace Court\n\nSheriff Clerk's Office PO Box 23 1 Carlton Place Glasgow G5 9DA\n\nGlasgow\n\nG5 9DA\n\nUK\n\nTelephone: +44 1414298888\n\nE-mail: glasgow@scotcourts.gov.uk\n\nVI.5) Date of dispatch of this notice\n\n29/10/2025",
+        "lots": [
+          {
+            "lotNumber": "1",
+            "title": "Eco-mooring front end engineering & design",
+            "cpvCodes": [
+              "45262421"
+            ],
+            "startDate": null,
+            "endDate": null,
+            "renewal": true,
+            "renewalDescription": "Extensions may be requested under extreme circumstances"
+          },
+          {
+            "lotNumber": "2",
+            "title": "Eco-mooring design & manufacture",
+            "cpvCodes": [
+              "45262421"
+            ],
+            "startDate": null,
+            "endDate": null,
+            "renewal": true,
+            "renewalDescription": "An extension may be requested in extreme circumstances"
+          },
+          {
+            "lotNumber": "3",
+            "title": "Eco-mooring installation",
+            "cpvCodes": [
+              "45262421"
+            ],
+            "startDate": null,
+            "endDate": null,
+            "renewal": true,
+            "renewalDescription": "An extension may be requested in extreme circumstances"
+          },
+          {
+            "lotNumber": "4",
+            "title": "Eco-mooring inspections & maintenance",
+            "cpvCodes": [
+              "45262421"
+            ],
+            "startDate": null,
+            "endDate": null,
+            "renewal": true,
+            "renewalDescription": "An extension may be requested in extreme circumstances"
+          }
+        ],
+        "sections": [
+          {
+            "roman": "I",
+            "heading": "Contracting authority"
+          },
+          {
+            "roman": "II",
+            "heading": "Object"
+          },
+          {
+            "roman": "III",
+            "heading": "Legal, economic, financial and technical information"
+          },
+          {
+            "roman": "IV",
+            "heading": "Procedure"
+          },
+          {
+            "roman": "VI",
+            "heading": "Complementary information"
+          }
+        ]
+      },
+      "contactInfo": {
+        "raw": "Main Contact:\tprocurement@mcsuk.org\nAdmin Contact:\tN/a\nTechnical Contact:\tN/a\nOther Contact:\tN/a",
+        "main": {
+          "raw": "procurement@mcsuk.org",
+          "name": null,
+          "emails": [
+            "procurement@mcsuk.org"
+          ]
+        },
+        "admin": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        },
+        "technical": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        },
+        "other": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        }
+      }
+    },
+    {
+      "date": "29/10/2025",
+      "title": "Workplace Innovation Leadership Development Programme (P26-0006)",
+      "detailUrl": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=OCT542290",
+      "referenceNo": "OCT542290",
+      "ocid": "ocds-r6ebe6-0000813100",
+      "publishedBy": "Scottish Enterprise",
+      "deadlineDate": "",
       "noticeType": "01 Prior Information Notice (PIN)",
       "iconFlags": [
         "Notice published in Find a Tender Service",
         "Additional documents attached to notice"
       ],
-      "rawRowText": "24/10/2025\n \tPKC13680 Housing Repairs - Term Maintenance Contract \n(Opens in new tab)",
+      "rawRowText": "29/10/2025\n \tWorkplace Innovation Leadership Development Programme (P26-0006) \n(Opens in new tab)",
       "category": "ALL_SELECTED",
-      "noticeId": "OCT542065",
-      "buyer": null,
-      "description": null,
-      "closingDate": null,
-      "publishedDate": null,
-      "rawText": "We use cookies to make the site simpler.\nAccept Cookie Settings\nSkip to main content\ndehaze\n 0800 222 9003\nView Notice\nHome > \nView Notice\n\nDo you wish to record an interest in this notice?\nDo you require any additional documents?\n\nNotice Details\nIntroduction\nFull Notice Text\nFurther Info\nContact Info\nCoding\nTitle:\tPKC13680 Housing Repairs - Term Maintenance Contract\nReference No:\tOCT542065\nOCID:\tocds-r6ebe6-0000813858\nPublished by:\tPerth & Kinross Council\nPublication Date:\t24/10/2025\nDeadline Date:\t\nDeadline Time:\t\nNotice Type:\t01 Prior Information Notice (PIN)\nHas Documents:\tYes\nHas SPD:\tNo\nAbstract:\tPerth and Kinross Council is inviting qualified contractors to join a new Framework Agreement designed to support our in-house team. This opportunity involves delivering responsive, ad-hoc repair and maintenance services, including emergency call-outs, to both our tenanted and void properties across our domestic housing stock. We welcome interest from small and medium-sized enterprises (SMEs) and contractors who may not have worked with us before.\nCPV: 45211100, 45340000, 45332200, 50711000, 45421000, 45442100, 45300000, 45410000, 45260000, 45441000, 45232452, 71550000, 09110000.\nPrint or Save this Notice\nDownload PDF\nDownload HTML\nDownload XML(13)\n\n\nFurther Instructions\n\nThe Buyer has attached further instructions with this notice. Please read these carefully and take the necessary action(s).\n\nRecord your interest\nQ & A\nAdditional Documents\n\nRecord your interest in this notice and you will be automatically sent clarifications and deadline date changes etc. Please note that recording your interest does not automatically enter you into the tender process for this notice, you still have to submit your response by the deadline stated. To record an interest in this notice and add it to your interests list please click the Record your interest now button at the top of the page.\n\nCopyright © Public Contracts Scotland\n\nContact Us\nWebsite Technical Support\n0800 222 9003\nOpening hours: 08:30 - 17:00\n  \nHome\nSearch Notices\nSearch Buyers\nSuppliers Area\nBuyers Area\nRegister\nNews & Events\nAbout Us\nInformation & Support\nAccessibility\nContact Us\nLogin\nTerms & Conditions | Privacy Policy & Cookies | Sitemap | ©2023 Proactis"
+      "noticeId": "OCT542290",
+      "publicationDate": "29/10/2025",
+      "deadlineTime": "",
+      "hasDocuments": true,
+      "hasSpd": false,
+      "abstract": "Our Workplace Innovation Leadership Academy supports the ongoing development of business leaders at all levels and stages of experience. The Leadership Academy delivers programmes under a framework agreement with multiple suppliers across the Scottish Enterprise area, the programme plays a key role in cultivating leadership capability and innovation within businesses.\nThe current framework expires early April 2026 and we anticipate commencing a new procurement process in December 2025.\nTo inform this process, we are seeking to engage with the market to better understand current capabilities and approaches to delivering high-impact leadership development. We welcome expressions of interest from suppliers who possess specialist knowledge, proven experience, and the capacity to deliver innovative and effective leadership programmes tailored to diverse business needs.\nThe Workplace Innovation Leadership Development Framework will consist of a series of one-day workshops, one-to-one coaching sessions, and topic specific diagnostic tools, delivered over a period of 2 - 6 months, depending on the Lot. Delivery will follow a hybrid model, combining online and face-to-face formats to maximise accessibility and impact.\nThe Framework will deliver programmes across the Scottish Enterprise area, responding to demand. Where appropriate, programmes may also be delivered in collaboration with other enterprise agencies across Scotland.\nCPV: 79400000, 79411100, 79400000, 79410000, 79900000, 79990000, 79411100, 79400000, 79410000, 79900000, 79990000, 79411100, 79400000, 79410000, 79900000, 79990000, 79400000, 79410000, 79411100, 79900000, 79990000.",
+      "cpvCodes": [
+        "79400000",
+        "79411100",
+        "79400000",
+        "79410000",
+        "79900000",
+        "79990000",
+        "79411100",
+        "79400000",
+        "79410000",
+        "79900000",
+        "79990000",
+        "79411100",
+        "79400000",
+        "79410000",
+        "79900000",
+        "79990000",
+        "79400000",
+        "79410000",
+        "79411100",
+        "79900000",
+        "79990000"
+      ],
+      "rawText": "We use cookies to make the site simpler.\nAccept Cookie Settings\nSkip to main content\ndehaze\n 0800 222 9003\nView Notice\nHome > \nView Notice\n\nDo you wish to record an interest in this notice?\nDo you require any additional documents?\n\nNotice Details\nIntroduction\nFull Notice Text\nFurther Info\nContact Info\nCoding\nTitle:\tWorkplace Innovation Leadership Development Programme (P26-0006)\nReference No:\tOCT542290\nOCID:\tocds-r6ebe6-0000813100\nPublished by:\tScottish Enterprise\nPublication Date:\t29/10/2025\nDeadline Date:\t\nDeadline Time:\t\nNotice Type:\t01 Prior Information Notice (PIN)\nHas Documents:\tYes\nHas SPD:\tNo\nAbstract:\tOur Workplace Innovation Leadership Academy supports the ongoing development of business leaders at all levels and stages of experience. The Leadership Academy delivers programmes under a framework agreement with multiple suppliers across the Scottish Enterprise area, the programme plays a key role in cultivating leadership capability and innovation within businesses.\nThe current framework expires early April 2026 and we anticipate commencing a new procurement process in December 2025.\nTo inform this process, we are seeking to engage with the market to better understand current capabilities and approaches to delivering high-impact leadership development. We welcome expressions of interest from suppliers who possess specialist knowledge, proven experience, and the capacity to deliver innovative and effective leadership programmes tailored to diverse business needs.\nThe Workplace Innovation Leadership Development Framework will consist of a series of one-day workshops, one-to-one coaching sessions, and topic specific diagnostic tools, delivered over a period of 2 - 6 months, depending on the Lot. Delivery will follow a hybrid model, combining online and face-to-face formats to maximise accessibility and impact.\nThe Framework will deliver programmes across the Scottish Enterprise area, responding to demand. Where appropriate, programmes may also be delivered in collaboration with other enterprise agencies across Scotland.\nCPV: 79400000, 79411100, 79400000, 79410000, 79900000, 79990000, 79411100, 79400000, 79410000, 79900000, 79990000, 79411100, 79400000, 79410000, 79900000, 79990000, 79400000, 79410000, 79411100, 79900000, 79990000.\nPrint or Save this Notice\nDownload PDF\nDownload HTML\nDownload XML(4)\n\n\nFurther Instructions\n\nThe Buyer has attached further instructions with this notice. Please read these carefully and take the necessary action(s).\n\nRecord your interest\nQ & A\nAdditional Documents\n\nRecord your interest in this notice and you will be automatically sent clarifications and deadline date changes etc. Please note that recording your interest does not automatically enter you into the tender process for this notice, you still have to submit your response by the deadline stated. To record an interest in this notice and add it to your interests list please click the Record your interest now button at the top of the page.\n\nCopyright © Public Contracts Scotland\n\nContact Us\nWebsite Technical Support\n0800 222 9003\nOpening hours: 08:30 - 17:00\n  \nHome\nSearch Notices\nSearch Buyers\nSuppliers Area\nBuyers Area\nRegister\nNews & Events\nAbout Us\nInformation & Support\nAccessibility\nContact Us\nLogin\nTerms & Conditions | Privacy Policy & Cookies | Sitemap | ©2023 Proactis",
+      "fullNotice": {
+        "raw": "Prior information notice\n\nThis notice is for prior information only\n\nSection I: Contracting authority\nI.1) Name and addresses\n\nScottish Enterprise\n\nAtrium Court, 50 Waterloo Street\n\nGlasgow\n\nG2 6HQ\n\nUK\n\nContact person: Alison McManus\n\nTelephone: +44 1414685025\n\nE-mail: alison.mcmanus@scotent.co.uk\n\nNUTS: UKM82\n\nInternet address(es)\n\nMain address: http://www.scottish-enterprise.com/\n\nAddress of the buyer profile: https://www.publiccontractsscotland.gov.uk/search/Search_AuthProfile.aspx?ID=AA00398\n\nI.2) Joint procurement\n\nThe contract is awarded by a central purchasing body\n\nI.3) Communication\n\nAdditional information can be obtained from the abovementioned address\n\n\n\n\nElectronic communication requires the use of tools and devices that are not generally available. Unrestricted and full direct access to these tools and devices is possible, free of charge, at:\n\nwww.publiccontractsscotland.gov.uk\n\n\n\nI.4) Type of the contracting authority\n\nRegional or local agency/office\n\nI.5) Main activity\n\nEconomic and financial affairs\n\nSection II: Object\nII.1) Scope of the procurement\nII.1.1) Title\n\nWorkplace Innovation Leadership Development Programme (P26-0006)\n\nReference number: P26-0006\n\nII.1.2) Main CPV code\n\n79400000\n\n \nII.1.3) Type of contract\n\nServices\n\nII.1.4) Short description\n\nOur Workplace Innovation Leadership Academy supports the ongoing development of business leaders at all levels and stages of experience. The Leadership Academy delivers programmes under a framework agreement with multiple suppliers across the Scottish Enterprise area, the programme plays a key role in cultivating leadership capability and innovation within businesses.\n\nThe current framework expires early April 2026 and we anticipate commencing a new procurement process in December 2025.\n\nTo inform this process, we are seeking to engage with the market to better understand current capabilities and approaches to delivering high-impact leadership development. We welcome expressions of interest from suppliers who possess specialist knowledge, proven experience, and the capacity to deliver innovative and effective leadership programmes tailored to diverse business needs.\n\nThe Workplace Innovation Leadership Development Framework will consist of a series of one-day workshops, one-to-one coaching sessions, and topic specific diagnostic tools, delivered over a period of 2 - 6 months, depending on the Lot. Delivery will follow a hybrid model, combining online and face-to-face formats to maximise accessibility and impact.\n\nThe Framework will deliver programmes across the Scottish Enterprise area, responding to demand. Where appropriate, programmes may also be delivered in collaboration with other enterprise agencies across Scotland.\n\nII.1.6) Information about lots\n\nThis contract is divided into lots: Yes\n\nII.2) Description\n\nLot No: 1\n\nII.2.1) Title\n\nTransformational Leadership Programme\n\nII.2.2) Additional CPV code(s)\n\n79411100\n\n79400000\n\n79410000\n\n79900000\n\n79990000\n\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM\n\nII.2.4) Description of the procurement\n\nA cohesive leadership programme designed for both emerging and established leaders, with consistent core themes and tailored content to reflect each group's unique needs and experiences.\n\nLot No: 2\n\nII.2.1) Title\n\nInnovating Leadership: AI, Data & Emerging Tech\n\nII.2.2) Additional CPV code(s)\n\n79411100\n\n79400000\n\n79410000\n\n79900000\n\n79990000\n\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM\n\nII.2.4) Description of the procurement\n\nTo empower leaders to embed AI, data, and emerging tech into strategy, foster ethical leadership, and drive internal innovation in a tech-enabled world.\n\nLot No: 3\n\nII.2.1) Title\n\nGrowth Through Risk & Ambition\n\nII.2.2) Additional CPV code(s)\n\n79411100\n\n79400000\n\n79410000\n\n79900000\n\n79990000\n\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM\n\nII.2.4) Description of the procurement\n\nTo support leaders in evaluating growth strategies, embracing risk as a catalyst for innovation, and exploring strategic options like investment, mergers, and ESG-aligned finance. Encourages a culture of learning through experimentation.\n\nLot No: 4\n\nII.2.1) Title\n\nLeadership in Times of Geopolitical & Economic Volatility\n\nII.2.2) Additional CPV code(s)\n\n79400000\n\n79410000\n\n79411100\n\n79900000\n\n79990000\n\nII.2.3) Place of performance\n\nNUTS code:\n\nUKM\n\nII.2.4) Description of the procurement\n\nHelps leaders build resilience, agility, change capability and foresight to lead through uncertainty, global disruption, and change—while staying focused on long-term sustainability and stakeholder trust.\n\nII.3) Estimated date of publication of contract notice:\n\n04/12/2025\n\nSection IV: Procedure\nIV.1) Description\nIV.1.8) Information about Government Procurement Agreement (GPA)\n\nThe procurement is covered by the Government Procurement Agreement: Yes\n\nSection VI: Complementary information\nVI.3) Additional information\n\nIn partnership with the Supplier Development Programme we will host an online ‘Talking Tenders’ session for interested parties to attend and hear more about this opportunity. We anticipate this will be held late November 2025 and details will be provided via this notice as soon as possible.\n\nA further training session (Aligned Tender Training) will be provided by the Supplier Development Programme to provide additional support to help bidders understand the procurement process. Details will be provided in the Invitation to Tender when it is published.\n\nPlease refer to the attached document for further information.\n\nNOTE: To register your interest in this notice and obtain any additional information please visit the Public Contracts Scotland Web Site at http://www.publiccontractsscotland.gov.uk/Search/Search_Switch.aspx?ID=813100.\n\n(SC Ref:813100)\n\nVI.5) Date of dispatch of this notice\n\n29/10/2025",
+        "lots": [
+          {
+            "lotNumber": "1",
+            "title": "Transformational Leadership Programme",
+            "cpvCodes": [
+              "79411100",
+              "79400000",
+              "79410000",
+              "79900000",
+              "79990000"
+            ],
+            "startDate": null,
+            "endDate": null,
+            "renewal": false,
+            "renewalDescription": null
+          },
+          {
+            "lotNumber": "2",
+            "title": "Innovating Leadership: AI, Data & Emerging Tech",
+            "cpvCodes": [
+              "79411100",
+              "79400000",
+              "79410000",
+              "79900000",
+              "79990000"
+            ],
+            "startDate": null,
+            "endDate": null,
+            "renewal": false,
+            "renewalDescription": null
+          },
+          {
+            "lotNumber": "3",
+            "title": "Growth Through Risk & Ambition",
+            "cpvCodes": [
+              "79411100",
+              "79400000",
+              "79410000",
+              "79900000",
+              "79990000"
+            ],
+            "startDate": null,
+            "endDate": null,
+            "renewal": false,
+            "renewalDescription": null
+          },
+          {
+            "lotNumber": "4",
+            "title": "Leadership in Times of Geopolitical & Economic Volatility",
+            "cpvCodes": [
+              "79400000",
+              "79410000",
+              "79411100",
+              "79900000",
+              "79990000"
+            ],
+            "startDate": null,
+            "endDate": null,
+            "renewal": false,
+            "renewalDescription": null
+          }
+        ],
+        "sections": [
+          {
+            "roman": "I",
+            "heading": "Contracting authority"
+          },
+          {
+            "roman": "II",
+            "heading": "Object"
+          },
+          {
+            "roman": "IV",
+            "heading": "Procedure"
+          },
+          {
+            "roman": "VI",
+            "heading": "Complementary information"
+          }
+        ]
+      },
+      "contactInfo": {
+        "raw": "Main Contact:\talison.mcmanus@scotent.co.uk\nAdmin Contact:\tN/a\nTechnical Contact:\tN/a\nOther Contact:\tN/a",
+        "main": {
+          "raw": "alison.mcmanus@scotent.co.uk",
+          "name": null,
+          "emails": [
+            "alison.mcmanus@scotent.co.uk"
+          ]
+        },
+        "admin": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        },
+        "technical": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        },
+        "other": {
+          "raw": "N/a",
+          "name": null,
+          "emails": []
+        }
+      }
     }
   ]
 }

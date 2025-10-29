@@ -24,7 +24,10 @@ const SELECTORS = {
   resultsRow: 'tbody > tr.pcs-tbl-row, tbody > tr.pcs-tbl-altrow',
   nextPage: 'a[title="Next"], .pagination a.next, .pager a.next, a[id*="lnkNext"]',
   disabledNext: '.pagination a.next.disabled, .pager a.next.disabled',
-  noResults: '.no-results, #noResults, .noRecords'
+  noResults: '.no-results, #noResults, .noRecords',
+  // Detail tab panels (best-effort stable IDs)
+  fullNoticePanel: '#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_Page2',
+  contactInfoPanel: '#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_Page4'
 };
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
@@ -338,7 +341,9 @@ async function runScotlandCategoryScrape(opts = {}) {
     maxPages = Infinity,
     detailPages = true,
     detailDelayMs = 600,
-    abortOnFailure = true
+    abortOnFailure = true,
+    detailRetries = 3,
+    detailRetryBackoffMs = 700
   } = opts;
 
   const browser = await puppeteer.launch({ headless });
@@ -368,7 +373,7 @@ async function runScotlandCategoryScrape(opts = {}) {
         continue;
       }
       try {
-        const detailData = await fetchDetailData(page, item.detailUrl, { timeoutMs });
+        const detailData = await fetchDetailData(page, item.detailUrl, { timeoutMs, retries: detailRetries, backoffMs: detailRetryBackoffMs });
         aggregatedItems[i] = { ...item, ...detailData };
       } catch (err) {
         logError('Detail page fetch failed', { url: item.detailUrl, error: err.message, index: i });
@@ -424,9 +429,27 @@ function extractNoticeId(detailUrl) {
  * @param {Object} options
  * @param {number} options.timeoutMs
  */
-async function fetchDetailData(page, detailUrl, { timeoutMs }) {
+async function fetchDetailData(page, detailUrl, { timeoutMs, retries = 0, backoffMs = 600 }) {
   logInfo('Fetching detail page', { detailUrl });
-  await page.goto(detailUrl, { waitUntil: 'domcontentloaded', timeout: timeoutMs });
+  // Navigation with retry & exponential-ish backoff (1.5x)
+  let attempt = 0;
+  while (true) {
+    try {
+      if (attempt > 0) {
+        const wait = Math.round(backoffMs * Math.pow(1.5, attempt - 1));
+        logWarn('Detail navigation retry', { attempt, waitMs: wait, detailUrl });
+        await sleep(wait);
+      }
+      await page.goto(detailUrl, { waitUntil: 'domcontentloaded', timeout: timeoutMs });
+      break;
+    } catch (e) {
+      attempt++;
+      if (attempt > retries) {
+        logError('Detail navigation failed after retries', { attempts: attempt, error: e.message, detailUrl });
+        throw e;
+      }
+    }
+  }
   // Helper to safely get trimmed innerText by exact ID
   async function getById(id) {
     try {
@@ -535,8 +558,8 @@ async function parseDetailTableFallback(page) {
 
 // Wrap original fetchDetailData to inject fallback merging
 const _origFetchDetailData = fetchDetailData;
-fetchDetailData = async function(page, detailUrl, { timeoutMs }) {
-  const primary = await _origFetchDetailData(page, detailUrl, { timeoutMs });
+fetchDetailData = async function(page, detailUrl, { timeoutMs, retries = 0, backoffMs = 600 }) {
+  const primary = await _origFetchDetailData(page, detailUrl, { timeoutMs, retries, backoffMs });
   // If critical fields missing, attempt fallback
   if (!primary.title || !primary.referenceNo || !primary.ocid) {
     logWarn('Primary detail extraction incomplete; invoking fallback');
@@ -561,8 +584,8 @@ fetchDetailData = async function(page, detailUrl, { timeoutMs }) {
 // --- Full Notice Text Tab Extraction Extension ---
 // Re-wrap again to add tab click & deep content parsing without losing fallback behavior.
 const _wrappedFetchDetailData = fetchDetailData;
-fetchDetailData = async function(page, detailUrl, { timeoutMs }) {
-  const data = await _wrappedFetchDetailData(page, detailUrl, { timeoutMs });
+fetchDetailData = async function(page, detailUrl, { timeoutMs, retries = 0, backoffMs = 600 }) {
+  const data = await _wrappedFetchDetailData(page, detailUrl, { timeoutMs, retries, backoffMs });
   try {
     // Attempt to locate a tab with text 'Full Notice Text'
     const tabClicked = await page.evaluate(() => {
@@ -624,6 +647,56 @@ fetchDetailData = async function(page, detailUrl, { timeoutMs }) {
     }
   } catch (e) {
     logWarn('Full Notice Text extraction failed', { error: e.message });
+  }
+  return data;
+};
+
+// --- Contact Info Tab Extraction Extension ---
+const _fullNoticeWrappedFetchDetailData = fetchDetailData;
+fetchDetailData = async function(page, detailUrl, { timeoutMs, retries = 0, backoffMs = 600 }) {
+  const data = await _fullNoticeWrappedFetchDetailData(page, detailUrl, { timeoutMs, retries, backoffMs });
+  try {
+    const tabClicked = await page.evaluate(() => {
+      const candidates = Array.from(document.querySelectorAll('li.rtsLI a.rtsLink, li.rtsLI span.rtsTxt, a[id*="Tab"]'));
+      for (const el of candidates) {
+        const txt = (el.innerText || '').trim();
+        if (/Contact Info/i.test(txt)) {
+          const link = el.closest('a.rtsLink') || el;
+          try { link.click(); } catch (_) {}
+          return true;
+        }
+      }
+      return false;
+    });
+    if (tabClicked) {
+      await sleep(600);
+      const contactInfo = await page.evaluate(() => {
+        const panel = document.querySelector('#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_Page4');
+        if (!panel) return null;
+        const raw = panel.innerText.trim();
+        function capture(label) {
+          const regex = new RegExp(label + '\\s*:?\\s*([\\s\\S]*?)(?=\\n(?:Main|Admin|Technical|Other) Contact|$)', 'i');
+          const match = raw.match(regex);
+          return match ? match[1].trim() : null;
+        }
+        function emailsFrom(text) { return text ? Array.from(new Set((text.match(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/gi) || []).map(e => e.trim()))) : []; }
+        function nameFrom(text) { if (!text) return null; const line = text.split('\n').find(l => /Name/i.test(l)); return line ? line.replace(/Name\s*:?\s*/i, '').trim() : null; }
+        const main = capture('Main Contact');
+        const admin = capture('Admin Contact');
+        const technical = capture('Technical Contact');
+        const other = capture('Other Contact');
+        return {
+          raw,
+          main: { raw: main, name: nameFrom(main), emails: emailsFrom(main) },
+          admin: { raw: admin, name: nameFrom(admin), emails: emailsFrom(admin) },
+          technical: { raw: technical, name: nameFrom(technical), emails: emailsFrom(technical) },
+          other: { raw: other, name: nameFrom(other), emails: emailsFrom(other) }
+        };
+      });
+      if (contactInfo) data.contactInfo = contactInfo;
+    }
+  } catch (e) {
+    logWarn('Contact Info extraction failed', { error: e.message });
   }
   return data;
 };
