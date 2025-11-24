@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer');
 const { logInfo, logWarn, logError } = require('../utils/logger');
+const { mapScotlandTenderToProcessedTender } = require('../mappers/tender-mappers');
 
 // Default keyword list (normalized to lowercase)
 const DEFAULT_KEYWORDS = [
@@ -385,6 +386,9 @@ async function runScotlandCategoryScrape(opts = {}) {
     }
   }
 
+  // Map raw scraped data to processed tender format
+  const processedItems = aggregatedItems.map(item => mapScotlandTenderToProcessedTender(item));
+
   const payload = {
     __meta: {
       fetchedAt: new Date().toISOString(),
@@ -392,10 +396,10 @@ async function runScotlandCategoryScrape(opts = {}) {
       selectedCategories: actuallySelected,
       totalSelected: actuallySelected.length,
       keywords: keywords.map(canonicalKeyword),
-      totalItems: aggregatedItems.length,
+      totalItems: processedItems.length,
       detailEnriched: !!detailPages
     },
-    items: aggregatedItems
+    items: processedItems
   };
 
   await browser.close();

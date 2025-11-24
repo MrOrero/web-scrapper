@@ -7,7 +7,8 @@
     "scrape": "node src/cli.js",
     "open-uk:collect:browser": "node src/open-uk/collect_browser.js --output open_uk_filtered_browser.json",
     "test": "node --test",
-    "public-scotland:categories": "node src/public-scotland/cli_scotland.js"
+    "public-scotland": "node src/public-scotland/cli_scotland.js",
+    "public-scotland:today": "node src/public-scotland/cli_scotland_today.js"
   },
   "keywords": [],
   "author": "",
