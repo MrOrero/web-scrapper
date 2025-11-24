@@ -4,6 +4,7 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 const { KEYWORDS, BROWSE_ENDPOINT, OVERVIEW_ENDPOINT } = require('./constants');
+const { mapOpenUkTenderToProcessedTender } = require('../mappers/tender-mappers');
 
 function keywordMatch(o){
   const text = [o.opportunityName, o.description, o.eventName, o.group].filter(Boolean).join(' ').toLowerCase();
@@ -49,7 +50,16 @@ function keywordMatch(o){
       results.push({ id: f.opportunityID, status: r.status, error: 'parse fail '+e.message });
     }
   }
-  const data = { total: items.length, filtered: filtered.length, results };
+  
+  // Map results to processed tender format
+  const processedResults = results.map(item => {
+    if (item.overview) {
+      return mapOpenUkTenderToProcessedTender(item);
+    }
+    return item; // Keep error items as-is
+  });
+  
+  const data = { total: items.length, filtered: filtered.length, results: processedResults };
 
   await browser.close();
   fs.writeFileSync(path.resolve(outputFile), JSON.stringify({ meta:{ ts:new Date().toISOString(), keywords: KEYWORDS }, ...data }, null, 2));
