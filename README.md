@@ -1,88 +1,67 @@
-# Web Scrapper (Puppeteer)
+# Web Scrapper
 
-A minimal Node.js web scraping utility using Puppeteer. Supports specifying CSS selectors via CLI.
+Node.js web scraping utility for UK government tender opportunities using Puppeteer.
 
 ## Features
-- Headless (default) or headful mode (`--headful`)
-- Timeout control per selector (`--timeout <ms>`)
-- Multiple selectors (`--selector name=CSS` repeated)
+- Public Contracts Scotland category scraping with pagination
+- Open UK opportunities collection
+- Standardized tender data format with mapper
+- Headless (default) or headful mode
+- Detailed enrichment from detail pages
 - Structured JSON output
-- Basic logging
-- Simple integration test using Node's test runner
- - Scotland category scraping with pagination (Public Contracts Scotland)
 
 ## Installation
 ```bash
 npm install
 ```
-(Puppeteer installs Chromium; expect a larger download.)
 
-## Usage
-```bash
-npm run scrape -- https://example.com --selector heading=h1
-```
-Output:
-```json
-{
-  "heading": "Example Domain",
-  "__meta": { "url": "https://example.com", "fetchedAt": "2025-10-22T...Z", "success": 1 }
-}
-```
+## Main Scripts
 
-Multiple selectors:
-```bash
-npm run scrape -- https://news.ycombinator.com --selector firstTitle=.athing .titleline a --selector subtext=.subtext --timeout 10000
-```
-
-Headful mode (for debugging):
-```bash
-npm run scrape -- https://example.com --headful
-```
-
-### Scotland Category Scrape
-Scrape all pages for categories whose names contain any keyword:
-
-Default keywords: `health, accommodation, accomodation, transport, transportation`
+### Scotland Tenders - All Categories
+Scrape all matching category tenders with full detail pages:
 
 ```bash
-npm run public-scotland:categories
+node src/public-scotland/cli_scotland.js --keywords health,transport --output scotland_results.json
 ```
 
-Custom keywords, headful mode, delay override, cap pages:
+Options:
+- `--keywords` - Comma-separated keywords (default: health,accommodation,transport,transportation)
+- `--output` - Output file name
+- `--headful` - Run browser in visible mode (for debugging)
+- `--delay` - Delay between category searches in ms (default: 1500)
+- `--maxPages` - Cap number of pages to scrape (default: unlimited)
+- `--no-detail` - Skip detail page enrichment
+- `--detail-delay` - Delay between detail pages in ms (default: 600)
+
+### Scotland Tenders - Today Only
+Scrape only today's tender notices:
+
 ```bash
-node src/public-scotland/cli_scotland.js --keywords health,transport --headful --delay 2000 --maxPages 50 --output scotland_results.json
+node src/public-scotland/cli_scotland_today.js --output scotland_today.json
 ```
 
-Output structure:
-```json
-{
-  "__meta": {
-    "fetchedAt": "2025-10-26T12:34:56.000Z",
-    "baseUrl": "https://www.publiccontractsscotland.gov.uk/search/search_mainpage.aspx",
-    "totalCategories": 3,
-    "keywords": ["health","accommodation","transport","transportation"],
-    "totalItems": 142
-  },
-  "categories": [
-    {
-      "category": "Health Services",
-      "matchedKeyword": "health",
-      "items": [
-        {"text": "Row text...", "cells": ["Ref","Title","Buyer"], "detailUrl": "https://...", "category": "Health Services"}
-      ]
-    }
-  ]
-}
+### Open UK Opportunities
+Collect filtered opportunities from Open UK:
+
+```bash
+node src/open-uk/collect_browser.js --output open_uk_filtered.json
 ```
 
-## Programmatic Use
-```js
-const { scrapePage } = require('./src/scrape');
-(async () => {
-  const data = await scrapePage('https://example.com', { heading: 'h1' }, { timeoutMs: 6000 });
-  console.log(data);
-})();
-```
+## Output Format
+## Output Format
+
+All scraped data is transformed into a standardized format with the following fields:
+- `governmentId` - Reference number or opportunity ID
+- `title` - Tender title
+- `tenderStatus` - Status/type of tender
+- `description` - Tender description/abstract
+- `deadline` - Submission deadline date
+- `category` - Tender category
+- `budget` - Contract value
+- `buyer` - Issuing authority/organization
+- `region` - Geographic region
+- `timeline` - Opening/closing dates, evaluation period, contract award date
+- `contactInfo` - Authority contact details including person, email, phone
 
 ## Testing
 ```bash
@@ -90,16 +69,10 @@ npm test
 ```
 
 ## Notes & Ethics
-- Always review a site's Terms of Service.
-- Respect `robots.txt` and rate-limit for larger scrapes.
-- Avoid overloading servers; add delays for bulk operations.
-- For Public Contracts Scotland, ensure usage aligns with any published terms and do not hammer pagination aggressively (tune `--delay`).
-
-## Next Ideas
-- Add concurrency with a queue.
-- Export to CSV/JSON lines.
-- Add stealth plugin / retries.
-- Add rotating user agents & proxy support.
+- Always review a site's Terms of Service
+- Respect `robots.txt` and rate-limit for larger scrapes
+- Avoid overloading servers; add delays for bulk operations
+- For Public Contracts Scotland, tune `--delay` to avoid aggressive pagination
 
 ## License
 ISC
