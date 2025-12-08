@@ -9,13 +9,8 @@ function todayIsoDate() {
   const y = now.getFullYear();
   const m = String(now.getMonth() + 1).padStart(2, '0');
   const d = String(now.getDate()).padStart(2, '0');
+  // return `04/${m}/${y}`;
   return `${d}/${m}/${y}`; // Notice pages appear to use DD/MM/YYYY format
-}
-
-// Some notices might store publicationDate or deadlineDate; we check both for equality with today.
-function isTodayNotice(item, todayStr) {
-  const fields = [item.date, item.publicationDate, item.deadlineDate];
-  return fields.filter(Boolean).some(f => f.startsWith(todayStr));
 }
 
 async function main() {
@@ -51,8 +46,19 @@ async function main() {
   logInfo('Running today-only Scotland scrape', { today });
 
   try {
-    const data = await runScotlandCategoryScrape({ keywords, headless, maxPages, detailPages, detailDelayMs, abortOnFailure, detailRetries, detailRetryBackoffMs });
-    const filtered = data.items.filter(item => isTodayNotice(item, today));
+    const data = await runScotlandCategoryScrape({ 
+      keywords, 
+      headless, 
+      maxPages, 
+      detailPages, 
+      detailDelayMs, 
+      abortOnFailure, 
+      detailRetries, 
+      detailRetryBackoffMs,
+      publishedFromDate: today,
+      // publishedToDate: today
+    });
+    const filtered = data.items;
     const payload = { ...data, __meta: { ...data.__meta, filter: 'today', today }, items: filtered, totalToday: filtered.length };
     fs.writeFileSync(path.resolve(output), JSON.stringify(payload, null, 2));
     logInfo('Today scrape complete', { output, totalToday: filtered.length, totalRaw: data.items.length });
@@ -65,4 +71,4 @@ async function main() {
 
 if (require.main === module) main();
 
-module.exports = { todayIsoDate, isTodayNotice };
+module.exports = { todayIsoDate };

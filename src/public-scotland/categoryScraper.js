@@ -23,12 +23,25 @@ const SELECTORS = {
   loadingSpinner: '.pcs-updateprogress',
   // Results & pagination
   resultsRow: 'tbody > tr.pcs-tbl-row, tbody > tr.pcs-tbl-altrow',
-  nextPage: 'a[title="Next"], .pagination a.next, .pager a.next, a[id*="lnkNext"]',
-  disabledNext: '.pagination a.next.disabled, .pager a.next.disabled',
+  nextPage: '#ctl00_maincontent_PagingHelperTop_btnNext',
+  nextPageItem: '#ctl00_maincontent_PagingHelperTop_pgNext',
+  disabledNextItem: '#ctl00_maincontent_PagingHelperTop_pgNext.disabled',
   noResults: '.no-results, #noResults, .noRecords',
   // Detail tab panels (best-effort stable IDs)
   fullNoticePanel: '#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_Page2',
-  contactInfoPanel: '#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_Page4'
+  contactInfoPanel: '#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_Page4',
+  // Date picker selectors
+  dateFromPopupButton: '#ctl00_maincontent_dtFromDate_popupButton',
+  dateToPopupButton: '#ctl00_maincontent_dtToDate_popupButton',
+  dateFromCalendar: '#ctl00_maincontent_dtFromDate_calendar_wrapper',
+  dateToCalendar: '#ctl00_maincontent_dtToDate_calendar_wrapper',
+  calendarTitle: '.rcTitle',
+  calendarPrevMonth: '.rcPrev',
+  calendarNextMonth: '.rcNext',
+  calendarFastPrev: '.rcFastPrev',
+  calendarFastNext: '.rcFastNext',
+  // Search button after date filter
+  searchNoticesButton: '#ctl00_maincontent_btnSearch'
 };
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
@@ -72,6 +85,87 @@ function filterCategories(categories, keywords = DEFAULT_KEYWORDS) {
     }
   }
   return selected;
+}
+
+/**
+ * Set a date in the date picker calendar.
+ * @param {puppeteer.Page} page
+ * @param {string} dateStr Date string in DD/MM/YYYY format
+ * @param {string} popupButtonSelector Selector for the popup button
+ * @param {string} calendarWrapperSelector Selector for the calendar wrapper
+ */
+async function setDateInCalendar(page, dateStr, popupButtonSelector, calendarWrapperSelector) {
+  logInfo('Setting date in calendar', { date: dateStr, popup: popupButtonSelector });
+  
+  // Parse the date string (DD/MM/YYYY)
+  const [day, month, year] = dateStr.split('/').map(Number);
+  const targetDate = new Date(year, month - 1, day);
+  const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 
+                      'July', 'August', 'September', 'October', 'November', 'December'];
+  const targetMonthYear = `${monthNames[targetDate.getMonth()]} ${targetDate.getFullYear()}`;
+  
+  // Open the date picker
+  await page.waitForSelector(popupButtonSelector, { timeout: 10000 });
+  await page.click(popupButtonSelector);
+  await sleep(500);
+  await page.waitForSelector(calendarWrapperSelector, { timeout: 10000 });
+  
+  // Navigate to the correct month/year
+  let attempts = 0;
+  const maxAttempts = 24; // Safety cap for navigation
+  while (attempts < maxAttempts) {
+    const currentTitle = await page.$eval(`${calendarWrapperSelector} ${SELECTORS.calendarTitle}`, el => el.innerText.trim());
+    logInfo('Current calendar view', { current: currentTitle, target: targetMonthYear });
+    
+    if (currentTitle === targetMonthYear) {
+      break;
+    }
+    
+    // Determine if we need to go forward or backward
+    const currentParts = currentTitle.split(' ');
+    const currentMonth = monthNames.indexOf(currentParts[0]);
+    const currentYear = parseInt(currentParts[1], 10);
+    const currentDate = new Date(currentYear, currentMonth, 1);
+    
+    if (targetDate < currentDate) {
+      // Go back in time
+      await page.click(`${calendarWrapperSelector} ${SELECTORS.calendarPrevMonth}`);
+    } else {
+      // Go forward in time
+      await page.click(`${calendarWrapperSelector} ${SELECTORS.calendarNextMonth}`);
+    }
+    
+    await sleep(300);
+    attempts++;
+  }
+  
+  if (attempts >= maxAttempts) {
+    throw new Error(`Failed to navigate to target month/year: ${targetMonthYear}`);
+  }
+  
+  // Click the specific day
+  const dayClicked = await page.evaluate((wrapper, targetDay) => {
+    const calendar = document.querySelector(wrapper);
+    if (!calendar) return false;
+    
+    // Find all day cells that are not from other months
+    const dayCells = Array.from(calendar.querySelectorAll('td:not(.rcOtherMonth) a'));
+    for (const cell of dayCells) {
+      const dayText = cell.innerText.trim();
+      if (parseInt(dayText, 10) === targetDay) {
+        cell.click();
+        return true;
+      }
+    }
+    return false;
+  }, calendarWrapperSelector, day);
+  
+  if (!dayClicked) {
+    throw new Error(`Failed to click on day ${day} in calendar`);
+  }
+  
+  logInfo('Successfully set date in calendar', { date: dateStr });
+  await sleep(500);
 }
 
 /**
@@ -295,25 +389,139 @@ async function extractResultsPage(page, categoryName) {
  * @param {number} opts.maxPages Optional safety cap (default Infinity)
  */
 async function extractAllPages(page, categoryName, opts = {}) {
-  const { maxPages = Infinity, delayBetweenPagesMs = 800 } = opts;
+  const { maxPages = Infinity, delayBetweenPagesMs = 300 } = opts; // Reduced default delay
   let all = [];
   let pageNum = 1;
+
+  // Helper to wait for spinner to disappear
+  const waitForSpinner = async () => {
+    const spinnerSelector = '.pcs-updateprogress';
+    try {
+      // Wait for spinner to be visible (short timeout to catch it appearing)
+      await page.waitForSelector(spinnerSelector, { visible: true, timeout: 2000 });
+    } catch (_) {
+      // Ignore timeout if spinner didn't appear (might be too fast)
+    }
+    try {
+      // Wait for spinner to be hidden/gone
+      await page.waitForSelector(spinnerSelector, { hidden: true, timeout: 45000 });
+    } catch (e) {
+      logWarn('Timeout waiting for spinner to hide', { error: e.message });
+    }
+  };
+
   while (pageNum <= maxPages) {
+    // Ensure stable state before extracting
+    if (pageNum === 1) await waitForSpinner();
+
     const part = await extractResultsPage(page, categoryName);
     all = all.concat(part);
-    // Try next page
-    const nextDisabled = await page.$(SELECTORS.disabledNext);
-    const nextBtn = await page.$(SELECTORS.nextPage);
-    if (!nextBtn || nextDisabled) {
+    
+    // Check pagination state
+    const paginationState = await page.evaluate(() => {
+      const nextItem = document.querySelector('#ctl00_maincontent_PagingHelperTop_pgNext');
+      const select = document.querySelector('#ctl00_maincontent_PagingHelperTop_ddPageSelect');
+      const currentVal = select ? parseInt(select.value, 10) : null;
+      return {
+        hasNext: !!nextItem,
+        isDisabled: nextItem ? nextItem.classList.contains('disabled') : true,
+        currentPage: currentVal,
+        // Check if the next page is available in the dropdown options
+        nextPageInDropdown: select && select.querySelector(`option[value="${(currentVal ? currentVal + 1 : 0)}"]`) !== null
+      };
+    });
+    
+    if (!paginationState.hasNext || paginationState.isDisabled) {
       logInfo('No next page or disabled', { category: categoryName, pageNum });
       break;
     }
-    logInfo('Navigating to next page', { category: categoryName, pageNum: pageNum + 1 });
+    
+    const nextPageNum = paginationState.currentPage + 1;
+    logInfo('Navigating to next page', { category: categoryName, fromPage: paginationState.currentPage, toPage: nextPageNum });
+    
     try {
-      await nextBtn.click();
-      await page.waitForNetworkIdle({ timeout: 15000 });
+      let navigationTriggered = false;
+
+      // STRATEGY 1: Trigger Change Event (Mimics User Selection)
+      if (paginationState.nextPageInDropdown) {
+        logInfo('Using dropdown change event', { toPage: nextPageNum });
+        await page.evaluate((targetPage) => {
+          const select = document.querySelector('#ctl00_maincontent_PagingHelperTop_ddPageSelect');
+          if (select) {
+            select.value = targetPage; 
+            // Dispatch change event to trigger the inline onchange handler
+            // This is safer than calling __doPostBack directly due to strict mode issues
+            const event = new Event('change', { bubbles: true });
+            select.dispatchEvent(event);
+          }
+        }, nextPageNum.toString());
+        navigationTriggered = true;
+      } 
+      // STRATEGY 2: Click Next Button (Fallback)
+      else {
+        logInfo('Using Next button navigation');
+        // Scroll button into view
+        await page.evaluate(() => {
+          const el = document.querySelector('#ctl00_maincontent_PagingHelperTop_btnNext');
+          if(el) el.scrollIntoView({block: "center", inline: "center"});
+        });
+        await sleep(200);
+
+        const nextBtn = await page.$(SELECTORS.nextPage);
+        if (nextBtn) {
+          try {
+             await nextBtn.click();
+             navigationTriggered = true;
+          } catch (e) {
+             // Try JS click
+             await page.evaluate(el => el.click(), nextBtn);
+             navigationTriggered = true;
+          }
+        }
+        
+        if (!navigationTriggered) {
+           // Fallback: trigger postback directly via eval from href
+           await page.evaluate(() => {
+            const btn = document.querySelector('#ctl00_maincontent_PagingHelperTop_btnNext');
+            if (btn && btn.href) {
+              const href = btn.getAttribute('href');
+              if (href && href.startsWith('javascript:')) {
+                const code = href.replace('javascript:', '');
+                eval(code);
+              }
+            }
+          });
+          navigationTriggered = true;
+        }
+      }
+      
+      // Wait for page number to change
+      if (paginationState.currentPage && navigationTriggered) {
+        // Wait for spinner cycle
+        await waitForSpinner();
+        
+        try {
+          await page.waitForFunction(
+            (oldPage) => {
+              const select = document.querySelector('#ctl00_maincontent_PagingHelperTop_ddPageSelect');
+              const newPage = select ? parseInt(select.value, 10) : null;
+              return newPage && newPage > oldPage;
+            },
+            { timeout: 30000, polling: 200 }, // Polling is less resource intensive
+            paginationState.currentPage
+          );
+          logInfo('Page navigation confirmed', { newPage: nextPageNum });
+        } catch (e) {
+          logWarn('Timeout waiting for page number to increment', { error: e.message });
+          // If we timed out, we might be stuck. Break to avoid infinite loop on same page.
+          break; 
+        }
+      } else {
+        // Fallback if no dropdown found
+        await sleep(2000);
+      }
     } catch (err) {
-      logWarn('Failed clicking next page; stopping pagination', { error: err.message });
+      logWarn('Failed navigating to next page; stopping pagination', { error: err.message });
       break;
     }
     pageNum++;
@@ -331,6 +539,8 @@ async function extractAllPages(page, categoryName, opts = {}) {
  * @param {string} opts.url override URL (default main search page)
  * @param {number} opts.delayMs delay between category searches
  * @param {number} opts.maxPages optional cap (Infinity)
+ * @param {string} opts.publishedFromDate Optional "from" date filter in DD/MM/YYYY format
+ * @param {string} opts.publishedToDate Optional "to" date filter in DD/MM/YYYY format
  */
 async function runScotlandCategoryScrape(opts = {}) {
   const {
@@ -344,13 +554,107 @@ async function runScotlandCategoryScrape(opts = {}) {
     detailDelayMs = 600,
     abortOnFailure = true,
     detailRetries = 3,
-    detailRetryBackoffMs = 700
+    detailRetryBackoffMs = 700,
+    publishedFromDate = null,
+    publishedToDate = null
   } = opts;
 
   const browser = await puppeteer.launch({ headless });
   const page = await browser.newPage();
   logInfo('Navigating to Scotland search page', { url });
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: timeoutMs });
+
+  // Set date filters if provided
+  let dateFiltersApplied = false;
+  if (publishedFromDate) {
+    try {
+      await setDateInCalendar(page, publishedFromDate, SELECTORS.dateFromPopupButton, SELECTORS.dateFromCalendar);
+      logInfo('Published from date set', { date: publishedFromDate });
+      dateFiltersApplied = true;
+    } catch (err) {
+      logError('Failed to set published from date', { error: err.message });
+      if (abortOnFailure) throw err;
+    }
+  }
+  
+  if (publishedToDate) {
+    try {
+      await setDateInCalendar(page, publishedToDate, SELECTORS.dateToPopupButton, SELECTORS.dateToCalendar);
+      logInfo('Published to date set', { date: publishedToDate });
+      dateFiltersApplied = true;
+    } catch (err) {
+      logError('Failed to set published to date', { error: err.message });
+      if (abortOnFailure) throw err;
+    }
+  }
+
+  // If date filters were applied, click Search Notices and wait for spinner
+  if (dateFiltersApplied) {
+    try {
+      logInfo('Clicking Search Notices button after date filter');
+      await page.waitForSelector(SELECTORS.searchNoticesButton, { timeout: 10000 });
+      
+      // Get the button element and use native DOM click event
+      const searchBtn = await page.$(SELECTORS.searchNoticesButton);
+      if (searchBtn) {
+        // Get bounding box and click in the center
+        const box = await searchBtn.boundingBox();
+        if (box) {
+          await page.mouse.click(box.x + box.width / 2, box.y + box.height / 2);
+        } else {
+          // Fallback: dispatch click event
+          await page.evaluate(sel => {
+            const el = document.querySelector(sel);
+            if (el) {
+              const event = new MouseEvent('click', {
+                bubbles: true,
+                cancelable: true,
+                view: window
+              });
+              el.dispatchEvent(event);
+            }
+          }, SELECTORS.searchNoticesButton);
+        }
+      }
+      
+      await sleep(500); // Brief wait for request to initiate
+      
+      // Poll-based wait for spinner to disappear (avoids waitForFunction issues)
+      logInfo('Waiting for search to complete after date filter');
+      const maxWaitMs = 45000;
+      const pollIntervalMs = 500;
+      const startTime = Date.now();
+      
+      while (Date.now() - startTime < maxWaitMs) {
+        // Check if spinner is visible
+        const spinnerVisible = await page.evaluate(() => {
+          const spinner = document.querySelector('.pcs-updateprogress');
+          if (!spinner) return false;
+          const style = window.getComputedStyle(spinner);
+          return style.display !== 'none' && style.visibility !== 'hidden';
+        });
+        
+        if (!spinnerVisible) {
+          // Spinner gone, check if we have results or page is ready
+          const hasResults = await page.$(SELECTORS.resultsRow);
+          if (hasResults) {
+            logInfo('Search completed - results visible');
+            break;
+          }
+          // Even if no results, spinner is gone so we can proceed
+          logInfo('Search completed - spinner gone');
+          break;
+        }
+        
+        await sleep(pollIntervalMs);
+      }
+      
+      await sleep(1000); // Brief pause after search
+    } catch (err) {
+      logError('Failed to trigger search after date filters', { error: err.message });
+      if (abortOnFailure) throw err;
+    }
+  }
 
   // New workflow: select all matching categories at once, then single search.
   await openCategoriesModal(page);
@@ -397,7 +701,9 @@ async function runScotlandCategoryScrape(opts = {}) {
       totalSelected: actuallySelected.length,
       keywords: keywords.map(canonicalKeyword),
       totalItems: processedItems.length,
-      detailEnriched: !!detailPages
+      detailEnriched: !!detailPages,
+      publishedFromDate: publishedFromDate || null,
+      publishedToDate: publishedToDate || null
     },
     items: processedItems
   };
