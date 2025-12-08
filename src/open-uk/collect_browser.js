@@ -3,12 +3,12 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
-const { KEYWORDS, BROWSE_ENDPOINT, OVERVIEW_ENDPOINT } = require('./constants');
+const { BROWSE_ENDPOINT, OVERVIEW_ENDPOINT, OPEN_UK_TARGET_CODES } = require('./constants');
 const { mapOpenUkTenderToProcessedTender } = require('../mappers/tender-mappers');
 
-function keywordMatch(o){
-  const text = [o.opportunityName, o.description, o.eventName, o.group].filter(Boolean).join(' ').toLowerCase();
-  return KEYWORDS.some(k=>text.includes(k));
+function codeMatch(o){
+  if (!o.industryCodes || !Array.isArray(o.industryCodes)) return false;
+  return o.industryCodes.some(code => OPEN_UK_TARGET_CODES.includes(code));
 }
 
 (async ()=>{
@@ -35,7 +35,7 @@ function keywordMatch(o){
   if(!browseRes.ok) throw new Error('browse failed '+browseRes.status);
   const browseJson = await browseRes.json();
   const items = Array.isArray(browseJson.items)? browseJson.items: [];
-  const filtered = items.filter(keywordMatch);
+  const filtered = items.filter(codeMatch);
   const results = [];
   for(const f of filtered){
     const r = await nodeFetchJson(OVERVIEW_ENDPOINT + f.opportunityID);
@@ -62,6 +62,6 @@ function keywordMatch(o){
   const data = { total: items.length, filtered: filtered.length, results: processedResults };
 
   await browser.close();
-  fs.writeFileSync(path.resolve(outputFile), JSON.stringify({ meta:{ ts:new Date().toISOString(), keywords: KEYWORDS }, ...data }, null, 2));
+  fs.writeFileSync(path.resolve(outputFile), JSON.stringify({ meta:{ ts:new Date().toISOString(), targetCodes: OPEN_UK_TARGET_CODES }, ...data }, null, 2));
   console.log(JSON.stringify({ summary:{ outputFile, total:data.total, filtered:data.filtered, withOverview:data.results.filter(r=>r.overview).length } }, null, 2));
 })().catch(e=>{ console.error('collect_browser failed', e.message); process.exit(1); });

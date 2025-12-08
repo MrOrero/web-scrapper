@@ -1,18 +1,12 @@
-const { KEYWORDS } = require('./constants');
+const { OPEN_UK_TARGET_CODES } = require('./constants');
 
-function matchesKeywords(opportunity) {
-  const haystack = [
-    opportunity.opportunityName,
-    opportunity.description,
-    opportunity.eventName,
-    opportunity.group
-  ].filter(Boolean).join(' ').toLowerCase();
-
-  return KEYWORDS.some(kw => haystack.includes(kw.toLowerCase()));
+function matchesCodes(opportunity) {
+  if (!opportunity.industryCodes || !Array.isArray(opportunity.industryCodes)) return false;
+  return opportunity.industryCodes.some(code => OPEN_UK_TARGET_CODES.includes(code));
 }
 
 function filterOpportunities(items) {
-  return items.filter(matchesKeywords);
+  return items.filter(matchesCodes);
 }
 
-module.exports = { filterOpportunities, matchesKeywords };
+module.exports = { filterOpportunities, matchesCodes };
